@@ -1,7 +1,7 @@
 import grpc
 import sys
 import os
-import argument
+import argparse
 
 # Add project root to sys.path for importing generated proto modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -9,7 +9,12 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import kv_store_pb2
 import kv_store_pb2_grpc
 
-def main():
+def parse_args():
+    parser = argparse.ArgumentParser(description="Key-Value Store Client")
+    parser.add_argument('--test', action='store_true', help='Run client in test mode')
+    return parser.parse_args()
+
+def test():
     channel = grpc.insecure_channel('localhost:50051')
     stub = kv_store_pb2_grpc.KeyValueStoreStub(channel)
 
@@ -30,6 +35,12 @@ def main():
     print("Getting foo after deletion...")
     response = stub.Get(kv_store_pb2.GetRequest(key="foo"))
     print(f"Found: {response.found}, Value: {response.value}")
+
+def main():
+    args = parse_args()
+
+    if args.test:
+        test()
 
 if __name__ == '__main__':
     main()
