@@ -20,6 +20,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         self.shard_id = shard_id
         self.local_address = local_address
         self.config = config
+        self.leader_leader_address = config["leader_leader"]["address"]
         self.store = {}
         self.replicas = [] # Does not include the leader address
         self.shard_id = shard_id
@@ -84,7 +85,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
                             print(f"[{self.local_address}] Leader responded with failure!")
                 except Exception as e:
                     print(f"[{self.local_address}] Failed to reach leader {self.leader_address}: time to leader elect")
-                    # TODO: trigger leader election
+                    # Trigger leader election
                     self.leader_election()
                 time.sleep(3)  # every 3 seconds
 
@@ -103,6 +104,13 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
 
         # Update everyone's params to new leader
         self.leader_address = new_leader_address
+
+        # Tell the leader leader the new leader address        
+        with grpc.insecure_channel(self.leader_leader_address) as channel:
+            stub = kv_store_pb2_grpc.KeyValueStoreStub(channel)
+            request = kv_store_pb2.LeaderChangeRequest(shard_id=self.shard_id, ip_address=self.local_address)
+            _ = stub.ShardLeaderChange(request)
+        
         print("    New leader elected:", self.leader_address)
 
     def RegisterReplica(self, request, context):

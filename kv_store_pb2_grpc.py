@@ -44,6 +44,11 @@ class KeyValueStoreStub(object):
                 request_serializer=kv__store__pb2.ReplicaListRequest.SerializeToString,
                 response_deserializer=kv__store__pb2.ReplicaListResponse.FromString,
                 )
+        self.ShardLeaderChange = channel.unary_unary(
+                '/kvstore.KeyValueStore/ShardLeaderChange',
+                request_serializer=kv__store__pb2.LeaderChangeRequest.SerializeToString,
+                response_deserializer=kv__store__pb2.LeaderChangeResponse.FromString,
+                )
 
 
 class KeyValueStoreServicer(object):
@@ -88,6 +93,13 @@ class KeyValueStoreServicer(object):
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
+    def ShardLeaderChange(self, request, context):
+        """Notify leader leader of new shard leader
+        """
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
 
 def add_KeyValueStoreServicer_to_server(servicer, server):
     rpc_method_handlers = {
@@ -120,6 +132,11 @@ def add_KeyValueStoreServicer_to_server(servicer, server):
                     servicer.PushReplicaList,
                     request_deserializer=kv__store__pb2.ReplicaListRequest.FromString,
                     response_serializer=kv__store__pb2.ReplicaListResponse.SerializeToString,
+            ),
+            'ShardLeaderChange': grpc.unary_unary_rpc_method_handler(
+                    servicer.ShardLeaderChange,
+                    request_deserializer=kv__store__pb2.LeaderChangeRequest.FromString,
+                    response_serializer=kv__store__pb2.LeaderChangeResponse.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -230,5 +247,22 @@ class KeyValueStore(object):
         return grpc.experimental.unary_unary(request, target, '/kvstore.KeyValueStore/PushReplicaList',
             kv__store__pb2.ReplicaListRequest.SerializeToString,
             kv__store__pb2.ReplicaListResponse.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+
+    @staticmethod
+    def ShardLeaderChange(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/kvstore.KeyValueStore/ShardLeaderChange',
+            kv__store__pb2.LeaderChangeRequest.SerializeToString,
+            kv__store__pb2.LeaderChangeResponse.FromString,
             options, channel_credentials,
             insecure, call_credentials, compression, wait_for_ready, timeout, metadata)

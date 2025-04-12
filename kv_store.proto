@@ -15,6 +15,19 @@ service KeyValueStore {
 
   // Push current replica list from shard leader to replica
   rpc PushReplicaList(ReplicaListRequest) returns (ReplicaListResponse);
+
+  // Notify leader leader of new shard leader
+  rpc ShardLeaderChange(LeaderChangeRequest) returns (LeaderChangeResponse);
+}
+
+// Messages for leader change
+message LeaderChangeRequest {
+  string shard_id = 1;
+  string ip_address = 2;
+}
+
+message LeaderChangeResponse {
+  bool success = 1;
 }
 
 // Messages for replica management

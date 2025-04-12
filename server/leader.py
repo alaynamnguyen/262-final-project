@@ -46,6 +46,11 @@ class LeaderLeaderServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
     def Delete(self, request, context):
         print(f"Leader-Leader: forwarding Delete({request.key})")
         return self.forward_to_shard("Delete", request.key, request)
+    
+    def ShardLeaderChange(self, request, context):
+        print("Leader leader heard about a new shard leader", request.shard_id, request.ip_address)
+        self.shard_map[request.shard_id] = request.ip_address
+        return kv_store_pb2.LeaderChangeResponse(success=True)
 
 def load_config(path):
     with open(path, "r") as f:
