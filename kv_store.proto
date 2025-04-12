@@ -6,8 +6,56 @@ service KeyValueStore {
   rpc Set(SetRequest) returns (SetResponse);
   rpc Get(GetRequest) returns (GetResponse);
   rpc Delete(DeleteRequest) returns (DeleteResponse);
+
+  // Register new replica to shard leader
+  rpc RegisterReplica(RegisterReplicaRequest) returns (RegisterReplicaResponse);
+
+  // Heartbeat between shard leader and shard replica
+  rpc Heartbeat(HeartbeatRequest) returns (HeartbeatResponse);
+
+  // Push current replica list from shard leader to replica
+  rpc PushReplicaList(ReplicaListRequest) returns (ReplicaListResponse);
 }
 
+// Messages for replica management
+message RegisterReplicaRequest {
+  string ip_address = 1;
+  int32 port = 2;
+}
+
+message RegisterReplicaResponse {
+  bool success = 1;
+}
+
+// Messages for heartbeat and leader election
+message HeartbeatRequest {
+  string server_id = 1;
+}
+
+message HeartbeatResponse {
+  bool success = 1;
+}
+
+message ElectLeaderRequest {
+  string server_id = 1; // Server requesting election
+  int64 term = 2;        // Logical term for election
+}
+
+message ElectLeaderResponse {
+  bool success = 1;
+  string new_leader_id = 2;
+}
+
+// Message for retrieving replica list
+message ReplicaListRequest {
+  repeated string replicas = 1;
+}
+
+message ReplicaListResponse {
+  bool success = 1;
+}
+
+// Messages for key-value operations
 message SetRequest {
   string key = 1;
   string value = 2;
