@@ -1,0 +1,5 @@
+set yinan student
+get yinan
+delete yinan
+get yinan
+set alayna student2

@@ -25,9 +25,11 @@ class LeaderLeaderServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
 
     def get_shard_id(self, key):
         shard_index = self.hash_key(key) % len(self.shard_map)
+        shard_index = 0  # TODO remove after testing
         return f"shard_{shard_index}"
 
     def forward_to_shard(self, method, key, request):
+        """Method is RPC call? Request should contain the key/value"""
         shard_id = self.get_shard_id(key)
         shard_leader_address = self.shard_map[shard_id]["shard_leader"]
 
@@ -49,7 +51,7 @@ class LeaderLeaderServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
     
     def ShardLeaderChange(self, request, context):
         print("Leader leader heard about a new shard leader", request.shard_id, request.ip_address)
-        self.shard_map[request.shard_id] = request.ip_address
+        self.shard_map[request.shard_id]['shard_leader'] = request.ip_address
         return kv_store_pb2.LeaderChangeResponse(success=True)
 
 def load_config(path):

@@ -6,6 +6,7 @@ import os
 from concurrent import futures
 import threading
 import time
+import utils
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -24,6 +25,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         self.store = {}
         self.replicas = [] # Does not include the leader address
         self.shard_id = shard_id
+        self.filepath = f'server/data/{self.local_address}_{self.shard_id}.json'
 
     def on_server_start(self):
         if self.role == "shard_leader":
@@ -140,7 +142,8 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
                 assert response.success
     
     def Heartbeat(self, request, context):
-        print(f"[{self.role.upper()} {self.local_address}] Received heartbeat from {request.server_id}")
+        # Uncomment for heartbeat logs
+        # print(f"[{self.role.upper()} {self.local_address}] Received heartbeat from {request.server_id}")
         return kv_store_pb2.HeartbeatResponse(success=True)
     
     def PushReplicaList(self, request, context):
@@ -148,32 +151,42 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         print(f"  -> Updated replica list: {self.replicas}")
         return kv_store_pb2.ReplicaListResponse(success=True)
 
+    def forward_to_replica(self, method, key, request, replica_address):
+        with grpc.insecure_channel(replica_address) as channel:
+            stub = kv_store_pb2_grpc.KeyValueStoreStub(channel)
+            return getattr(stub, method)(request)
+        
     def Set(self, request, context):
-        if self.role != "shard_leader":
-            print("Set called on replica — rejecting")
-            return kv_store_pb2.SetResponse(success=False)
-
         print(f"[{self.shard_id}] SET {request.key} -> {request.value}")
         self.store[request.key] = request.value
+        # Write to persistent storage
+        utils.write_dict_to_json(self.store, self.filepath)
 
-        # TODO: push update to replicas
+        # Push update to replicas if you're the replica leader
+        if self.role == "shard_leader":
+            for replica in self.replicas:
+                self.forward_to_replica("Set", request.key, request, replica)
+        
         return kv_store_pb2.SetResponse(success=True)
 
-    def Get(self, request, context):
+    def Get(self, request, context): # only the replica leader responds
         value = self.store.get(request.key, "")
         found = request.key in self.store
         print(f"[{self.shard_id}] GET {request.key} -> {value if found else 'NOT FOUND'}")
         return kv_store_pb2.GetResponse(found=found, value=value)
 
     def Delete(self, request, context):
-        if self.role != "shard_leader":
-            print("Delete called on replica — rejecting")
-            return kv_store_pb2.DeleteResponse(success=False)
-
         success = self.store.pop(request.key, None) is not None
         print(f"[{self.shard_id}] DELETE {request.key} -> {'Success' if success else 'Not found'}")
 
-        # TODO: propagate delete to replicas
+        # Write to persistent storage
+        utils.write_dict_to_json(self.store, self.filepath)
+    
+        # Propagate delete to replicas if you're the replica leader
+        if self.role == "shard_leader":
+            for replica in self.replicas:
+                self.forward_to_replica("Delete", request.key, request, replica)
+
         return kv_store_pb2.DeleteResponse(success=success)
 
 def load_config(path):
