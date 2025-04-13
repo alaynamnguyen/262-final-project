@@ -16,7 +16,6 @@ CONFIG_PATH = "config.json"
 class LeaderLeaderServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
     def __init__(self, shard_map):
         self.shard_map = shard_map
-        self.logical_clock = 0
         print("Initialized Leader-Leader with shard map:")
         for shard_id, info in self.shard_map.items():
             print(f"  {shard_id} -> {info['shard_leader']}")
