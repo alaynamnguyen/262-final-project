@@ -7,6 +7,7 @@ from concurrent import futures
 import threading
 import time
 import utils
+import random
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -28,6 +29,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         self.filepath = f'server/data/{self.local_address}_{self.shard_id}.json'
         self.command_file = f'server/runs/{self.local_address}_{self.shard_id}.txt'
         self.logical_clock = 0
+        self.mode = config["mode"]
 
         header_line = f"system_time logical_clock command status\n"
         utils.write_line_to_txt(self.command_file, header_line, "w")
@@ -175,19 +177,40 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
             stub = kv_store_pb2_grpc.KeyValueStoreStub(channel)
             return getattr(stub, method)(request)
         
+    def handle_logical_clock_and_push(self, method, request):
+        """method: Set or Delete"""
+        # Push update to replicas if you're the replica leader
+        if self.role == "shard_leader":
+            self.logical_clock += 1 # leader should increment its logical clock
+            request.logical_clock = self.logical_clock
+            if self.mode == "strong": # Send to all replicas!
+                for replica in self.replicas:
+                    self.forward_to_replica(method, request.key, request, replica)
+            else: # Send to one replica randomly
+                choice = random.choice(self.replicas)
+                request.told_replicas = [choice]
+                self.forward_to_replica(method, request.key, request, choice)
+        else:
+            # replica should update its logical clock based on the leader's
+            self.logical_clock = max(self.logical_clock, request.logical_clock) + 1
+            if self.mode == "weak": # Pass along to another random replica
+                # TODO gossip to other replicas
+                request.logical_clock = self.logical_clock
+                choice = random.choice(set(self.replicas) - set(request.told_replicas))
+                request.told_replicas.append(choice)
+                self.forward_to_replica(method, request.key, request, choice)
+            # if strong, do nothing, shard leader informs everyone
+        
     def Set(self, request, context):
         print(f"[{self.shard_id}] SET {request.key} -> {request.value}")
         self.store[request.key] = request.value
+        
         # Write to persistent storage
         utils.write_dict_to_json(self.store, self.filepath)
         command = f"SET-{request.key}->{request.value}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {True}", "a")
 
-        # Push update to replicas if you're the replica leader
-        if self.role == "shard_leader":
-            for replica in self.replicas:
-                self.forward_to_replica("Set", request.key, request, replica)
-        
+        self.handle_logical_clock_and_push("Set")
         return kv_store_pb2.SetResponse(success=True)
 
     def Get(self, request, context): # only the replica leader responds
@@ -207,11 +230,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         command = f"DELETE-{request.key}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {success}", "a")
     
-        # Propagate delete to replicas if you're the replica leader
-        if self.role == "shard_leader":
-            for replica in self.replicas:
-                self.forward_to_replica("Delete", request.key, request, replica)
-
+        self.handle_logical_clock_and_push("Delete")
         return kv_store_pb2.DeleteResponse(success=success)
 
 def load_config(path):

@@ -92,6 +92,7 @@ message SetRequest {
   string value = 2;
   string system_time = 3;
   int64 logical_clock = 4;
+  repeated string told_replicas = 5;
 }
 
 message SetResponse {
@@ -100,8 +101,9 @@ message SetResponse {
 
 message GetRequest {
   string key = 1;
-  string system_time = 3;
-  int64 logical_clock = 4;
+  string system_time = 2;
+  int64 logical_clock = 3;
+  repeated string told_replicas = 5;
 }
 
 message GetResponse {
@@ -111,8 +113,9 @@ message GetResponse {
 
 message DeleteRequest {
   string key = 1;
-  string system_time = 3;
-  int64 logical_clock = 4;
+  string system_time = 2;
+  int64 logical_clock = 3;
+  repeated string told_replicas = 5;
 }
 
 message DeleteResponse {

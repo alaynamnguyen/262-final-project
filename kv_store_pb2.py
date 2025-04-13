@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0ekv_store.proto\x12\x07kvstore\";\n\x13LeaderChangeRequest\x12\x10\n\x08shard_id\x18\x01 \x01(\t\x12\x12\n\nip_address\x18\x02 \x01(\t\"\'\n\x14LeaderChangeResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\":\n\x16RegisterReplicaRequest\x12\x12\n\nip_address\x18\x01 \x01(\t\x12\x0c\n\x04port\x18\x02 \x01(\x05\"*\n\x17RegisterReplicaResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"%\n\x10HeartbeatRequest\x12\x11\n\tserver_id\x18\x01 \x01(\t\"$\n\x11HeartbeatResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"5\n\x12\x45lectLeaderRequest\x12\x11\n\tserver_id\x18\x01 \x01(\t\x12\x0c\n\x04term\x18\x02 \x01(\x03\"=\n\x13\x45lectLeaderResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\x12\x15\n\rnew_leader_id\x18\x02 \x01(\t\"&\n\x12ReplicaListRequest\x12\x10\n\x08replicas\x18\x01 \x03(\t\"&\n\x13ReplicaListResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"*\n\x0cKeyValuePair\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\"4\n\x0cStoreRequest\x12$\n\x05store\x18\x01 \x03(\x0b\x32\x15.kvstore.KeyValuePair\" \n\rStoreResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"T\n\nSetRequest\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\x12\x13\n\x0bsystem_time\x18\x03 \x01(\t\x12\x15\n\rlogical_clock\x18\x04 \x01(\x03\"\x1e\n\x0bSetResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"E\n\nGetRequest\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x13\n\x0bsystem_time\x18\x03 \x01(\t\x12\x15\n\rlogical_clock\x18\x04 \x01(\x03\"+\n\x0bGetResponse\x12\r\n\x05\x66ound\x18\x01 \x01(\x08\x12\r\n\x05value\x18\x02 \x01(\t\"H\n\rDeleteRequest\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x13\n\x0bsystem_time\x18\x03 \x01(\t\x12\x15\n\rlogical_clock\x18\x04 \x01(\x03\"!\n\x0e\x44\x65leteResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\x32\xa4\x04\n\rKeyValueStore\x12\x30\n\x03Set\x12\x13.kvstore.SetRequest\x1a\x14.kvstore.SetResponse\x12\x30\n\x03Get\x12\x13.kvstore.GetRequest\x1a\x14.kvstore.GetResponse\x12\x39\n\x06\x44\x65lete\x12\x16.kvstore.DeleteRequest\x1a\x17.kvstore.DeleteResponse\x12T\n\x0fRegisterReplica\x12\x1f.kvstore.RegisterReplicaRequest\x1a .kvstore.RegisterReplicaResponse\x12\x42\n\tHeartbeat\x12\x19.kvstore.HeartbeatRequest\x1a\x1a.kvstore.HeartbeatResponse\x12L\n\x0fPushReplicaList\x12\x1b.kvstore.ReplicaListRequest\x1a\x1c.kvstore.ReplicaListResponse\x12:\n\tPushStore\x12\x15.kvstore.StoreRequest\x1a\x16.kvstore.StoreResponse\x12P\n\x11ShardLeaderChange\x12\x1c.kvstore.LeaderChangeRequest\x1a\x1d.kvstore.LeaderChangeResponseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0ekv_store.proto\x12\x07kvstore\";\n\x13LeaderChangeRequest\x12\x10\n\x08shard_id\x18\x01 \x01(\t\x12\x12\n\nip_address\x18\x02 \x01(\t\"\'\n\x14LeaderChangeResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\":\n\x16RegisterReplicaRequest\x12\x12\n\nip_address\x18\x01 \x01(\t\x12\x0c\n\x04port\x18\x02 \x01(\x05\"*\n\x17RegisterReplicaResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"%\n\x10HeartbeatRequest\x12\x11\n\tserver_id\x18\x01 \x01(\t\"$\n\x11HeartbeatResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"5\n\x12\x45lectLeaderRequest\x12\x11\n\tserver_id\x18\x01 \x01(\t\x12\x0c\n\x04term\x18\x02 \x01(\x03\"=\n\x13\x45lectLeaderResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\x12\x15\n\rnew_leader_id\x18\x02 \x01(\t\"&\n\x12ReplicaListRequest\x12\x10\n\x08replicas\x18\x01 \x03(\t\"&\n\x13ReplicaListResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"*\n\x0cKeyValuePair\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\"4\n\x0cStoreRequest\x12$\n\x05store\x18\x01 \x03(\x0b\x32\x15.kvstore.KeyValuePair\" \n\rStoreResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"k\n\nSetRequest\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\t\x12\x13\n\x0bsystem_time\x18\x03 \x01(\t\x12\x15\n\rlogical_clock\x18\x04 \x01(\x03\x12\x15\n\rtold_replicas\x18\x05 \x03(\t\"\x1e\n\x0bSetResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\"\\\n\nGetRequest\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x13\n\x0bsystem_time\x18\x02 \x01(\t\x12\x15\n\rlogical_clock\x18\x03 \x01(\x03\x12\x15\n\rtold_replicas\x18\x05 \x03(\t\"+\n\x0bGetResponse\x12\r\n\x05\x66ound\x18\x01 \x01(\x08\x12\r\n\x05value\x18\x02 \x01(\t\"_\n\rDeleteRequest\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\x13\n\x0bsystem_time\x18\x02 \x01(\t\x12\x15\n\rlogical_clock\x18\x03 \x01(\x03\x12\x15\n\rtold_replicas\x18\x05 \x03(\t\"!\n\x0e\x44\x65leteResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\x32\xa4\x04\n\rKeyValueStore\x12\x30\n\x03Set\x12\x13.kvstore.SetRequest\x1a\x14.kvstore.SetResponse\x12\x30\n\x03Get\x12\x13.kvstore.GetRequest\x1a\x14.kvstore.GetResponse\x12\x39\n\x06\x44\x65lete\x12\x16.kvstore.DeleteRequest\x1a\x17.kvstore.DeleteResponse\x12T\n\x0fRegisterReplica\x12\x1f.kvstore.RegisterReplicaRequest\x1a .kvstore.RegisterReplicaResponse\x12\x42\n\tHeartbeat\x12\x19.kvstore.HeartbeatRequest\x1a\x1a.kvstore.HeartbeatResponse\x12L\n\x0fPushReplicaList\x12\x1b.kvstore.ReplicaListRequest\x1a\x1c.kvstore.ReplicaListResponse\x12:\n\tPushStore\x12\x15.kvstore.StoreRequest\x1a\x16.kvstore.StoreResponse\x12P\n\x11ShardLeaderChange\x12\x1c.kvstore.LeaderChangeRequest\x1a\x1d.kvstore.LeaderChangeResponseb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -48,17 +48,17 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   _globals['_STORERESPONSE']._serialized_start=606
   _globals['_STORERESPONSE']._serialized_end=638
   _globals['_SETREQUEST']._serialized_start=640
-  _globals['_SETREQUEST']._serialized_end=724
-  _globals['_SETRESPONSE']._serialized_start=726
-  _globals['_SETRESPONSE']._serialized_end=756
-  _globals['_GETREQUEST']._serialized_start=758
-  _globals['_GETREQUEST']._serialized_end=827
-  _globals['_GETRESPONSE']._serialized_start=829
-  _globals['_GETRESPONSE']._serialized_end=872
-  _globals['_DELETEREQUEST']._serialized_start=874
-  _globals['_DELETEREQUEST']._serialized_end=946
-  _globals['_DELETERESPONSE']._serialized_start=948
-  _globals['_DELETERESPONSE']._serialized_end=981
-  _globals['_KEYVALUESTORE']._serialized_start=984
-  _globals['_KEYVALUESTORE']._serialized_end=1532
+  _globals['_SETREQUEST']._serialized_end=747
+  _globals['_SETRESPONSE']._serialized_start=749
+  _globals['_SETRESPONSE']._serialized_end=779
+  _globals['_GETREQUEST']._serialized_start=781
+  _globals['_GETREQUEST']._serialized_end=873
+  _globals['_GETRESPONSE']._serialized_start=875
+  _globals['_GETRESPONSE']._serialized_end=918
+  _globals['_DELETEREQUEST']._serialized_start=920
+  _globals['_DELETEREQUEST']._serialized_end=1015
+  _globals['_DELETERESPONSE']._serialized_start=1017
+  _globals['_DELETERESPONSE']._serialized_end=1050
+  _globals['_KEYVALUESTORE']._serialized_start=1053
+  _globals['_KEYVALUESTORE']._serialized_end=1601
 # @@protoc_insertion_point(module_scope)
