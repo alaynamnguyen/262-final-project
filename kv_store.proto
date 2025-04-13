@@ -16,6 +16,9 @@ service KeyValueStore {
   // Push current replica list from shard leader to replica
   rpc PushReplicaList(ReplicaListRequest) returns (ReplicaListResponse);
 
+  // Push current data store from shard leader to replica
+  rpc PushStore(StoreRequest) returns (StoreResponse);
+
   // Notify leader leader of new shard leader
   rpc ShardLeaderChange(LeaderChangeRequest) returns (LeaderChangeResponse);
 }
@@ -68,10 +71,27 @@ message ReplicaListResponse {
   bool success = 1;
 }
 
+// Represents a key-value pair in the store
+message KeyValuePair {
+  string key = 1;
+  string value = 2;
+}
+
+// Message for retrieving data store
+message StoreRequest {
+  repeated KeyValuePair store = 1;
+}
+
+message StoreResponse {
+  bool success = 1;
+}
+
 // Messages for key-value operations
 message SetRequest {
   string key = 1;
   string value = 2;
+  string system_time = 3;
+  int64 logical_clock = 4;
 }
 
 message SetResponse {
@@ -80,6 +100,8 @@ message SetResponse {
 
 message GetRequest {
   string key = 1;
+  string system_time = 3;
+  int64 logical_clock = 4;
 }
 
 message GetResponse {
@@ -89,6 +111,8 @@ message GetResponse {
 
 message DeleteRequest {
   string key = 1;
+  string system_time = 3;
+  int64 logical_clock = 4;
 }
 
 message DeleteResponse {

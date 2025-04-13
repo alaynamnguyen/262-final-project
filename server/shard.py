@@ -26,6 +26,11 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         self.replicas = [] # Does not include the leader address
         self.shard_id = shard_id
         self.filepath = f'server/data/{self.local_address}_{self.shard_id}.json'
+        self.command_file = f'server/runs/{self.local_address}_{self.shard_id}.txt'
+        self.logical_clock = 0
+
+        header_line = f"system_time logical_clock command status\n"
+        utils.write_line_to_txt(self.command_file, header_line, "w")
 
     def on_server_start(self):
         if self.role == "shard_leader":
@@ -102,7 +107,8 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
             self.role = "shard_leader"
             self.start_leader_heartbeat_loop()
             # Remove newly elected leader from replica list
-            self.replicas.remove(self.local_address)
+        self.replicas.remove(new_leader_address)
+        print("REPLICA LIST:", self.replicas)
 
         # Update everyone's params to new leader
         self.leader_address = new_leader_address
@@ -130,7 +136,13 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         print(f"  -> Replicas: {self.replicas}")
 
         # Push replica list to all replicas from replica leader
-        self.push_replica_list_to_replicas()            
+        self.push_replica_list_to_replicas()
+        # Send the new replica the current data store
+        with grpc.insecure_channel(replica_address) as channel:
+            stub = kv_store_pb2_grpc.KeyValueStoreStub(channel)
+            request = kv_store_pb2.StoreRequest(store=utils.dict_to_store(self.store))
+            response = stub.PushStore(request)
+            assert response.success
         return kv_store_pb2.RegisterReplicaResponse(success=True)
     
     def push_replica_list_to_replicas(self):
@@ -140,6 +152,13 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
                 request = kv_store_pb2.ReplicaListRequest(replicas=self.replicas)
                 response = stub.PushReplicaList(request)
                 assert response.success
+        
+    def PushStore(self, request, context):
+        # Update this replica's store from what the leader has
+        self.store = utils.store_to_dict(request.store)
+        print(f"[{self.shard_id}] Received data store from leader: {self.store}")
+        utils.write_dict_to_json(self.store, self.filepath)
+        return kv_store_pb2.StoreResponse(success=True)
     
     def Heartbeat(self, request, context):
         # Uncomment for heartbeat logs
@@ -161,6 +180,8 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         self.store[request.key] = request.value
         # Write to persistent storage
         utils.write_dict_to_json(self.store, self.filepath)
+        command = f"SET-{request.key}->{request.value}-{request.logical_clock}"
+        utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {True}", "a")
 
         # Push update to replicas if you're the replica leader
         if self.role == "shard_leader":
@@ -173,6 +194,8 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         value = self.store.get(request.key, "")
         found = request.key in self.store
         print(f"[{self.shard_id}] GET {request.key} -> {value if found else 'NOT FOUND'}")
+        command = f"GET-{request.key}-{request.logical_clock}"
+        utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {found}", "a")
         return kv_store_pb2.GetResponse(found=found, value=value)
 
     def Delete(self, request, context):
@@ -181,6 +204,8 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
 
         # Write to persistent storage
         utils.write_dict_to_json(self.store, self.filepath)
+        command = f"DELETE-{request.key}-{request.logical_clock}"
+        utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {success}", "a")
     
         # Propagate delete to replicas if you're the replica leader
         if self.role == "shard_leader":

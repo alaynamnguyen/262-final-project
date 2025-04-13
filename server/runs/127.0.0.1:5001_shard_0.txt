@@ -1,0 +1,7 @@
+system_time logical_clock command status
+
+1744574500.4019032 0 SET-luc->student3-0 True
+1744574500.407003 0 SET-theo->student4-0 True
+1744574500.411408 0 SET-ellen->student-0 True
+1744574500.415195 0 SET-yushu->student-0 True
+1744574500.418657 0 SET-daniel->student-0 True
