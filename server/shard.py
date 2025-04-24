@@ -210,7 +210,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         command = f"SET-{request.key}->{request.value}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {True}", "a")
 
-        self.handle_logical_clock_and_push("Set")
+        self.handle_logical_clock_and_push("Set", request)
         return kv_store_pb2.SetResponse(success=True)
 
     def Get(self, request, context): # only the replica leader responds
@@ -230,7 +230,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         command = f"DELETE-{request.key}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {success}", "a")
     
-        self.handle_logical_clock_and_push("Delete")
+        self.handle_logical_clock_and_push("Delete", request)
         return kv_store_pb2.DeleteResponse(success=success)
 
 def load_config(path):
