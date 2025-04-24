@@ -1,5 +1,5 @@
 {
-    "mode": "strong",
+    "mode": "weak",
     "leader_leader": {
         "address": "127.0.0.1:5000"
     },

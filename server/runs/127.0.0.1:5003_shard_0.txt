@@ -1,7 +1,5 @@
 system_time logical_clock command status
 
-1744574500.4049091 0 SET-luc->student3-0 True
-1744574500.409024 0 SET-theo->student4-0 True
-1744574500.413575 0 SET-ellen->student-0 True
-1744574500.4169998 0 SET-yushu->student-0 True
-1744574500.420566 0 SET-daniel->student-0 True
+1745524577.3044171 0 SET-yinan->student-1 True
+1745524577.310685 2 DELETE-yinan-2 True
+1745524577.316652 3 SET-alayna->student2-5 True

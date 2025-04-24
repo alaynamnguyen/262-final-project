@@ -1,7 +1,7 @@
 system_time logical_clock command status
 
-1745523819.214747 0 SET-yinan->student-0 True
-1745523819.220586 1 GET-yinan-0 True
-1745523819.222027 1 DELETE-yinan-0 True
-1745523819.224406 2 GET-yinan-0 False
-1745523819.226178 2 SET-alayna->student2-0 True
+1745524577.303215 0 SET-yinan->student-0 True
+1745524577.3082712 1 GET-yinan-0 True
+1745524577.309674 1 DELETE-yinan-0 True
+1745524577.313632 2 GET-yinan-0 False
+1745524577.314931 2 SET-alayna->student2-0 True

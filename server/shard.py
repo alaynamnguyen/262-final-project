@@ -188,17 +188,21 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
                     self.forward_to_replica(method, request.key, request, replica)
             else: # Send to one replica randomly
                 choice = random.choice(self.replicas)
-                request.told_replicas = [choice]
+                del request.told_replicas[:]
+                request.told_replicas.append(choice)
                 self.forward_to_replica(method, request.key, request, choice)
         else:
             # replica should update its logical clock based on the leader's
             self.logical_clock = max(self.logical_clock, request.logical_clock) + 1
             if self.mode == "weak": # Pass along to another random replica
-                # TODO gossip to other replicas
                 request.logical_clock = self.logical_clock
-                choice = random.choice(set(self.replicas) - set(request.told_replicas))
-                request.told_replicas.append(choice)
-                self.forward_to_replica(method, request.key, request, choice)
+                remaining = list(set(self.replicas) - set(request.told_replicas))
+                if remaining:
+                    choice = random.choice(remaining)
+                    request.told_replicas.append(choice)
+                    self.forward_to_replica(method, request.key, request, choice)
+                else:
+                    print(f"[{self.local_address}] No more replicas left to gossip to for key {request.key}")
             # if strong, do nothing, shard leader informs everyone
         
     def Set(self, request, context):
