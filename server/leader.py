@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import hashlib
+import argparse
 
 # Add project root to sys.path for importing generated proto modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -59,7 +60,12 @@ def load_config(path):
         return json.load(f)
 
 def serve():
-    config = load_config(CONFIG_PATH)
+    parser = argparse.ArgumentParser(description="Start a shard node.")
+    parser.add_argument("--config", type=str, default="configs/config.json")
+
+    args = parser.parse_args()
+    config = load_config(args.config)
+    
     leader_address = config["leader_leader"]["address"]
     shard_map = config["shards"]
 

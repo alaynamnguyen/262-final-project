@@ -186,7 +186,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
             if self.mode == "strong": # Send to all replicas!
                 for replica in self.replicas:
                     self.forward_to_replica(method, request.key, request, replica)
-            else: # Send to one replica randomly
+            elif len(self.replicas) > 0: # Send to one replica randomly
                 choice = random.choice(self.replicas)
                 del request.told_replicas[:]
                 request.told_replicas.append(choice)
@@ -207,13 +207,15 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         
     def Set(self, request, context):
         print(f"[{self.shard_id}] SET {request.key} -> {request.value}")
+        print("HERE 0")
         self.store[request.key] = request.value
+        print("HERE 1")
         
         # Write to persistent storage
         utils.write_dict_to_json(self.store, self.filepath)
         command = f"SET-{request.key}->{request.value}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {True}", "a")
-
+        print("HERE 2")
         self.handle_logical_clock_and_push("Set", request)
         return kv_store_pb2.SetResponse(success=True)
 
@@ -241,8 +243,8 @@ def load_config(path):
     with open(path, "r") as f:
         return json.load(f)
 
-def serve(role, shard_id, port):
-    config = load_config(CONFIG_PATH)
+def serve(role, shard_id, port, config_path):
+    config = load_config(config_path)
     local_address = f"127.0.0.1:{port}"
 
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
@@ -261,6 +263,7 @@ if __name__ == "__main__":
     parser.add_argument("--shard-id", required=True, help="shard_0 / shard_1 / shard_2")
     parser.add_argument("--port", type=int, required=True)
     parser.add_argument("--host", type=str, default="127.0.0.1")
+    parser.add_argument("--config", type=str, default="configs/config.json")
 
     args = parser.parse_args()
-    serve(args.role, args.shard_id, args.port)
+    serve(args.role, args.shard_id, args.port, args.config)
