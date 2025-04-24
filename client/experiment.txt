@@ -1,0 +1,1000 @@
+set yinan student2
+set sana grad
+delete alayna
+set li alum
+set theo grad
+set theo alum
+get luc
+set sasha student2
+get sana
+set ivy phd
+set luc alum
+get ellen
+delete li
+delete ellen
+set yinan student
+get theo
+set noah grad
+get li
+delete ellen
+set daniel alum
+delete noah
+set noah phd
+set mira visitor
+set noah visitor
+set daniel dropout
+set mira undergrad
+set li visitor
+delete daniel
+set mira visitor
+delete sasha
+delete daniel
+delete daniel
+get niko
+delete niko
+set yinan alum
+delete alayna
+set mira grad
+set theo grad
+delete luc
+set theo undergrad
+delete yinan
+set niko undergrad
+get leo
+delete sasha
+set ellen staff
+set ivy undergrad
+get sasha
+set ellen undergrad
+delete leo
+set mira staff
+get daniel
+set niko student2
+set theo grad
+set kai ms
+set ivy student
+set theo phd
+set daniel student2
+set yinan dropout
+set daniel ms
+delete leo
+delete li
+set kai visitor
+get niko
+set kai phd
+get daniel
+set leo dropout
+set luc dropout
+delete yinan
+set kai student2
+get kai
+set niko visitor
+delete alayna
+set alayna alum
+delete kai
+set noah staff
+delete sasha
+delete ivy
+set daniel student
+set niko student2
+delete niko
+set leo phd
+delete luc
+get theo
+set mira alum
+get ivy
+get li
+delete li
+get alayna
+get sasha
+set ellen grad
+set niko student
+set ellen grad
+get leo
+set niko student
+delete mira
+delete theo
+get ivy
+delete alayna
+delete niko
+set sasha student2
+set daniel student
+get sana
+delete alayna
+delete ellen
+set theo alum
+delete theo
+set ivy undergrad
+set luc undergrad
+get li
+delete mira
+get theo
+set luc staff
+get mira
+set ellen alum
+get ellen
+delete li
+delete sasha
+delete noah
+get luc
+set mira dropout
+get alayna
+get sasha
+get leo
+set kai student2
+get niko
+delete mira
+get yinan
+delete niko
+set ellen student2
+set alayna staff
+set sasha dropout
+set theo grad
+set leo student2
+delete leo
+set yinan alum
+delete mira
+get sana
+get alayna
+delete kai
+get ellen
+set kai student
+set ivy phd
+set mira ms
+set kai undergrad
+get ellen
+set li dropout
+set luc grad
+get mira
+get noah
+set theo alum
+set noah student2
+get alayna
+set luc alum
+set mira student2
+set daniel visitor
+set sana alum
+get kai
+delete kai
+get kai
+delete sana
+set daniel phd
+set niko dropout
+set daniel grad
+get kai
+set li undergrad
+get li
+set noah ms
+set mira student
+delete alayna
+get niko
+set luc alum
+get li
+set kai student2
+set sasha staff
+set alayna dropout
+set sasha staff
+get alayna
+set sana phd
+delete daniel
+delete noah
+set sasha student2
+set noah dropout
+get yinan
+get kai
+get sana
+get yinan
+set theo phd
+get alayna
+set ellen grad
+set sasha alum
+set sasha dropout
+set yinan staff
+set leo student2
+set ellen phd
+delete yinan
+delete ellen
+get ivy
+delete sasha
+delete ellen
+set mira dropout
+set mira alum
+set ivy grad
+get alayna
+get niko
+get noah
+set theo phd
+set kai staff
+get leo
+get ellen
+get ellen
+get noah
+set sasha ms
+get sana
+get yinan
+set luc student2
+delete mira
+delete kai
+delete theo
+get ellen
+delete daniel
+set mira ms
+set luc grad
+get mira
+get kai
+set yinan dropout
+set mira staff
+delete daniel
+get daniel
+set sana undergrad
+set leo visitor
+set noah undergrad
+set ellen grad
+get kai
+delete ellen
+set sana alum
+set yinan ms
+set alayna visitor
+set niko dropout
+get ivy
+get daniel
+get noah
+get ellen
+set ellen student
+set luc visitor
+set li staff
+set ellen undergrad
+get theo
+get luc
+delete alayna
+get sasha
+set ivy staff
+set niko student
+set li grad
+delete ellen
+set ivy dropout
+delete yinan
+set ellen staff
+set leo staff
+get mira
+get kai
+get sasha
+get luc
+get leo
+delete sana
+get yinan
+get theo
+delete yinan
+get leo
+get kai
+delete luc
+get noah
+set ellen student2
+get noah
+get luc
+delete mira
+set daniel undergrad
+set luc staff
+set ivy undergrad
+set ellen student
+set ellen visitor
+delete yinan
+get ellen
+set li grad
+set sana alum
+set niko student2
+set ivy student2
+get luc
+set niko visitor
+get luc
+get luc
+get sana
+delete sasha
+set niko undergrad
+get daniel
+set luc dropout
+set alayna phd
+set luc grad
+set sasha grad
+set luc phd
+get li
+get noah
+set niko student2
+delete kai
+get sana
+get sana
+get yinan
+get theo
+set noah phd
+set ellen visitor
+get ivy
+set sasha phd
+delete niko
+get alayna
+set ellen undergrad
+delete kai
+delete niko
+set yinan dropout
+set ellen undergrad
+set sana dropout
+set leo ms
+get sasha
+set niko alum
+set sana visitor
+set leo ms
+delete daniel
+delete yinan
+get ivy
+set ivy dropout
+delete alayna
+set sana undergrad
+delete li
+delete luc
+set ivy dropout
+delete noah
+set alayna visitor
+set ellen dropout
+set sasha staff
+get ivy
+get ellen
+delete niko
+get luc
+set noah visitor
+delete sasha
+delete alayna
+set niko ms
+set niko alum
+set sasha staff
+set alayna alum
+delete mira
+set ellen student
+get mira
+delete luc
+delete sana
+get ellen
+set mira ms
+delete luc
+get noah
+set yinan student2
+get ivy
+set noah undergrad
+delete sana
+set theo ms
+set alayna phd
+set niko grad
+delete theo
+set ivy ms
+set leo dropout
+set yinan grad
+set niko staff
+set li undergrad
+delete ellen
+set leo phd
+delete kai
+set daniel student2
+set sasha visitor
+set sana grad
+set noah phd
+set leo student2
+set ellen visitor
+set yinan alum
+set niko student2
+set ellen staff
+get ivy
+get sana
+set niko alum
+get ivy
+set ivy ms
+set ellen dropout
+set yinan alum
+get yinan
+get leo
+set niko phd
+set li grad
+delete alayna
+set li ms
+get alayna
+set sana student2
+set leo student2
+set yinan dropout
+get noah
+get ivy
+delete luc
+set ivy alum
+delete alayna
+set sana staff
+set leo ms
+get theo
+delete sana
+delete noah
+set noah staff
+get niko
+set theo ms
+set ivy grad
+delete sasha
+set sasha staff
+get kai
+set alayna student
+get ivy
+delete luc
+delete alayna
+get kai
+set niko staff
+set daniel alum
+set luc alum
+delete ellen
+set sana alum
+set sasha alum
+set noah student
+set luc student2
+delete sasha
+delete ivy
+delete kai
+set alayna dropout
+get alayna
+set luc student
+set daniel student2
+get sasha
+set li student
+delete luc
+set alayna undergrad
+get sasha
+set mira phd
+set ivy grad
+set theo alum
+set mira visitor
+get kai
+set ivy phd
+get kai
+set kai ms
+get li
+get noah
+set leo grad
+delete kai
+set ellen dropout
+get daniel
+set ellen dropout
+get leo
+delete sasha
+delete ivy
+set sasha staff
+delete sana
+set ellen staff
+delete niko
+get ellen
+get daniel
+set ivy undergrad
+set sasha visitor
+set mira undergrad
+get sasha
+set sana staff
+get kai
+get kai
+set yinan student2
+set li phd
+delete ellen
+set mira dropout
+set sasha grad
+get kai
+get luc
+delete luc
+set luc staff
+delete noah
+delete ellen
+set noah dropout
+set sana visitor
+set noah visitor
+get alayna
+get daniel
+get niko
+delete ellen
+delete noah
+set ellen grad
+get theo
+set leo alum
+set alayna visitor
+delete sana
+set noah undergrad
+get kai
+set theo student
+get leo
+delete li
+delete noah
+set daniel phd
+delete noah
+get ivy
+get ivy
+set daniel grad
+get ellen
+set ivy phd
+set sasha phd
+get daniel
+delete daniel
+set li visitor
+delete li
+get kai
+get mira
+get alayna
+set ellen grad
+get leo
+set alayna dropout
+set mira visitor
+get mira
+set mira staff
+set theo alum
+set yinan visitor
+get sana
+get luc
+set sana phd
+set mira visitor
+set mira undergrad
+delete alayna
+get ivy
+set luc undergrad
+set li ms
+delete li
+set noah visitor
+set yinan ms
+delete ellen
+get yinan
+set ivy visitor
+set leo student2
+set leo student
+get daniel
+set alayna alum
+set kai visitor
+delete luc
+get mira
+delete niko
+set sana dropout
+get theo
+set alayna alum
+get mira
+set noah phd
+set niko alum
+set mira staff
+get ellen
+set sana alum
+set mira ms
+get leo
+set niko undergrad
+get sana
+set yinan undergrad
+set luc undergrad
+get theo
+delete noah
+set li alum
+delete li
+get sana
+set niko grad
+delete alayna
+set mira phd
+set daniel student
+get luc
+get li
+set daniel visitor
+set theo grad
+delete sana
+set daniel alum
+delete noah
+set theo phd
+set noah student2
+set leo grad
+set niko student2
+get sasha
+get ellen
+set kai visitor
+set niko dropout
+get sasha
+delete alayna
+delete luc
+set alayna dropout
+set alayna student
+delete li
+set luc student2
+get kai
+set mira student2
+set sasha visitor
+set leo ms
+get kai
+get kai
+delete leo
+set ellen dropout
+set niko alum
+set kai alum
+set theo alum
+set luc visitor
+delete kai
+set noah ms
+get luc
+set alayna visitor
+set alayna undergrad
+get alayna
+set mira alum
+get mira
+set ellen undergrad
+get ivy
+set alayna alum
+set li phd
+get kai
+delete theo
+delete ivy
+get li
+set leo staff
+set kai phd
+delete leo
+delete kai
+get leo
+set theo student2
+delete ivy
+get niko
+get daniel
+delete ellen
+set kai student
+delete noah
+set li staff
+set mira phd
+get alayna
+set ellen student
+get daniel
+get niko
+delete li
+set mira student
+set noah phd
+set ellen staff
+get yinan
+set li student
+set ellen alum
+set sana staff
+get li
+get ivy
+set alayna ms
+get noah
+set leo alum
+set mira dropout
+get theo
+set mira visitor
+get kai
+set mira ms
+get sana
+delete alayna
+set li undergrad
+set kai dropout
+set leo alum
+set leo alum
+set ellen grad
+set ivy grad
+set niko alum
+set li phd
+get alayna
+get mira
+set sasha staff
+set yinan visitor
+set noah dropout
+delete ellen
+delete leo
+set yinan grad
+set li staff
+set ellen alum
+get sasha
+get ivy
+delete daniel
+delete theo
+set alayna visitor
+delete niko
+set sana student2
+set daniel visitor
+delete yinan
+set niko grad
+set niko visitor
+set sana student
+set yinan staff
+delete li
+get luc
+get ellen
+get daniel
+set alayna ms
+get ellen
+get yinan
+set sasha ms
+set mira student2
+set sasha staff
+delete ivy
+get luc
+set yinan undergrad
+get sasha
+set luc student2
+set niko student
+set li student
+set alayna student2
+set yinan phd
+get ivy
+set leo alum
+get leo
+set theo dropout
+delete li
+set leo student
+set noah student
+set ellen alum
+set ivy staff
+get daniel
+delete theo
+delete mira
+get ellen
+set ivy alum
+get alayna
+delete theo
+set ivy ms
+set luc student
+set theo dropout
+set ivy dropout
+set yinan undergrad
+set leo staff
+get theo
+set mira dropout
+set noah visitor
+set daniel phd
+get theo
+delete luc
+set luc ms
+delete mira
+delete yinan
+delete mira
+get li
+get ellen
+get alayna
+get sasha
+get sasha
+set theo grad
+set theo phd
+set yinan phd
+set sana alum
+set yinan alum
+delete kai
+get luc
+get ivy
+get niko
+set ellen visitor
+set ellen grad
+get theo
+set daniel undergrad
+get luc
+set li student2
+set niko undergrad
+delete ellen
+get leo
+delete kai
+set mira visitor
+get mira
+set mira phd
+set niko ms
+get leo
+set leo dropout
+get theo
+delete theo
+set yinan visitor
+get luc
+delete niko
+set li alum
+set theo student
+get niko
+get sana
+get leo
+get sasha
+delete leo
+delete noah
+set ivy grad
+delete mira
+get theo
+set alayna staff
+set daniel student
+get sana
+set noah staff
+delete daniel
+get daniel
+get ivy
+set sana dropout
+delete mira
+set leo student2
+get yinan
+delete theo
+set sana alum
+delete sana
+set noah student2
+set theo ms
+set alayna student
+get noah
+set kai dropout
+set luc phd
+set kai student
+set li undergrad
+get li
+set sana visitor
+get kai
+delete leo
+set theo visitor
+set daniel visitor
+set daniel phd
+delete alayna
+get ellen
+get yinan
+set sana undergrad
+get yinan
+set daniel undergrad
+get sana
+get li
+get daniel
+set alayna visitor
+get alayna
+set ivy undergrad
+delete leo
+set sasha alum
+set yinan phd
+set niko undergrad
+set noah visitor
+set yinan undergrad
+set leo phd
+get sana
+set luc alum
+delete niko
+set mira dropout
+set daniel student2
+get luc
+set noah student2
+set kai alum
+set luc alum
+set ellen staff
+set noah undergrad
+set theo staff
+set sana student
+get li
+get ivy
+delete sana
+set sana ms
+delete mira
+delete li
+set sasha phd
+set sasha student2
+delete mira
+set alayna alum
+set kai dropout
+get luc
+get niko
+set li alum
+set ivy undergrad
+delete noah
+get kai
+delete sasha
+get leo
+set luc undergrad
+delete yinan
+set ellen alum
+get sana
+set sasha dropout
+set niko staff
+set noah student
+get niko
+delete sasha
+get luc
+set luc alum
+set niko ms
+set li phd
+set alayna visitor
+set sasha alum
+set ellen undergrad
+set yinan grad
+set ivy visitor
+set luc student2
+set alayna visitor
+set yinan student
+set theo grad
+set leo grad
+set noah student
+get sasha
+get sana
+delete li
+get mira
+set mira student2
+delete leo
+get alayna
+set leo student
+get luc
+delete daniel
+get theo
+get kai
+delete noah
+set noah staff
+delete yinan
+get leo
+set luc ms
+get ivy
+set sana phd
+delete ellen
+set luc dropout
+set luc phd
+get noah
+get luc
+delete li
+get niko
+set li grad
+delete sana
+set theo visitor
+set sasha phd
+set mira student2
+set ellen visitor
+delete li
+set ivy visitor
+delete yinan
+delete mira
+set li phd
+set yinan undergrad
+get ellen
+set daniel phd
+get leo
+get theo
+set sasha undergrad
+set ellen alum
+set kai phd
+set leo staff
+delete noah
+set noah student
+set luc alum
+delete leo
+delete ellen
+get sasha
+set niko staff
+set theo phd
+set noah student
+set alayna student2
+set ellen student
+get kai
+delete sana
+set leo student
+get mira
+set daniel student
+get niko
+set ellen staff
+set daniel alum
+delete li
+set luc visitor
+set ivy staff
+set kai visitor
+get leo
+get sana
+delete ellen
+get leo
+delete sasha
+get luc
+set noah phd
+set mira alum
+get theo
+get ellen
+set luc visitor
+delete theo
+set kai ms
+set daniel dropout
+set li alum
+get li
+get kai
+get ivy
+set li undergrad
+set daniel staff
+get daniel
+set ivy alum
+set kai student2
+set yinan staff
+get yinan
+set yinan ms
+set noah grad
+set luc grad
+delete ivy
+set mira visitor
+get sana
+set kai student2
+set leo dropout
+get niko
+set kai alum
+set sana grad
+delete kai
+set sasha student2
+set luc visitor
