@@ -177,16 +177,24 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
             stub = kv_store_pb2_grpc.KeyValueStoreStub(channel)
             return getattr(stub, method)(request)
         
+    def handle_logical_clock(self, method, request):
+        """method: Get"""
+        # Update internal clock by 1 (since you're a replica leader)
+        self.logical_clock += 1
+        
     def handle_logical_clock_and_push(self, method, request):
         """method: Set or Delete"""
         # Push update to replicas if you're the replica leader
         if self.role == "shard_leader":
-            self.logical_clock += 1 # leader should increment its logical clock
-            request.logical_clock = self.logical_clock
+            # TODO maybe update clock for having received command
             if self.mode == "strong": # Send to all replicas!
                 for replica in self.replicas:
+                    self.logical_clock += 1 # leader increments logical clock for each replica it sends to
+                    request.logical_clock = self.logical_clock
                     self.forward_to_replica(method, request.key, request, replica)
             elif len(self.replicas) > 0: # Send to one replica randomly
+                self.logical_clock += 1 # leader increments logical clock for each replica it sends to
+                request.logical_clock = self.logical_clock
                 choice = random.choice(self.replicas)
                 del request.told_replicas[:]
                 request.told_replicas.append(choice)
@@ -207,15 +215,12 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         
     def Set(self, request, context):
         print(f"[{self.shard_id}] SET {request.key} -> {request.value}")
-        print("HERE 0")
         self.store[request.key] = request.value
-        print("HERE 1")
         
         # Write to persistent storage
         utils.write_dict_to_json(self.store, self.filepath)
         command = f"SET-{request.key}->{request.value}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {True}", "a")
-        print("HERE 2")
         self.handle_logical_clock_and_push("Set", request)
         return kv_store_pb2.SetResponse(success=True)
 
@@ -225,6 +230,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         print(f"[{self.shard_id}] GET {request.key} -> {value if found else 'NOT FOUND'}")
         command = f"GET-{request.key}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {found}", "a")
+        self.handle_logical_clock("Get", request)
         return kv_store_pb2.GetResponse(found=found, value=value)
 
     def Delete(self, request, context):
