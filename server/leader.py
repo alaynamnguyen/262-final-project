@@ -12,8 +12,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import kv_store_pb2
 import kv_store_pb2_grpc
 
-CONFIG_PATH = "config.json"
-
 class LeaderLeaderServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
     def __init__(self, shard_map):
         self.shard_map = shard_map
