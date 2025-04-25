@@ -12,7 +12,7 @@ python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. kv_store.prot
 python server/leader.py --config configs/config.json
 python server/shard.py --role shard_leader --shard-id shard_0 --port 5001 --config configs/config.json
 python server/shard.py --role replica --shard-id shard_0 --port 5002 --config configs/config.json
-python client/client.py --file client/commands.txt
+python client/client.py --file client/experiment.txt
 ```
 
 ## Bash script to spin up from config

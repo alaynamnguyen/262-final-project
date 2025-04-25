@@ -2,16 +2,18 @@ REPLICA for shard_2 listening on 127.0.0.1:5045
 Replica for shard_2 initialized at 127.0.0.1:5045
   -> Leader: 127.0.0.1:5040
 Starting replica heartbeat loop...
-  -> Updated replica list: ['127.0.0.1:5048', '127.0.0.1:5045']
-  -> Updated replica list: ['127.0.0.1:5048', '127.0.0.1:5045']
-  -> Updated replica list: ['127.0.0.1:5048', '127.0.0.1:5045', '127.0.0.1:5049']
+  -> Updated replica list: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041']
+  -> Updated replica list: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041']
+  -> Updated replica list: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041', '127.0.0.1:5047']
 [shard_2] Received data store from leader: {}
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Successfully registered replica with shard leader at 127.0.0.1:5040
-  -> Updated replica list: ['127.0.0.1:5048', '127.0.0.1:5045', '127.0.0.1:5049', '127.0.0.1:5050']
-[shard_2] DEL max -> Not found
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+  -> Updated replica list: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041', '127.0.0.1:5047', '127.0.0.1:5050']
+  -> Updated replica list: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041', '127.0.0.1:5047', '127.0.0.1:5050', '127.0.0.1:5049', '127.0.0.1:5048']
+  -> Updated replica list: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041', '127.0.0.1:5047', '127.0.0.1:5050', '127.0.0.1:5049', '127.0.0.1:5048']
 [shard_2] SET june -> alum
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL max -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -21,50 +23,45 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL kira -> Not found
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> student
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL kira -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET daniel -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] DEL luc -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ada -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET max -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ravi -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET luc -> ms
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET luc -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ada -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET max -> researcher
+[shard_2] SET luc -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
-[shard_2] DEL alayna -> Success
+[shard_2] SET max -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET ravi -> faculty
+[shard_2] DEL alayna -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET june -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key june
+[shard_2] SET ravi -> faculty
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET zoe -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL zoe -> Success
@@ -75,10 +72,8 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] SET daniel -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] SET toby -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> admin
@@ -89,48 +84,44 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL alayna -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET luc -> dropout
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET kira -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
+[shard_2] SET luc -> dropout
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] SET max -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] DEL luc -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ravi -> adjunct
 [shard_2] SET sasha -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET ravi -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET toby -> admin
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET max -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL daniel -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL kira -> Success
+[shard_2] SET max -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Not found
+[shard_2] DEL kira -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET zoe -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] SET max -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET toby -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key toby
 [shard_2] SET kira -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] DEL reese -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL alayna -> Not found
@@ -143,52 +134,50 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET zoe -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] DEL june -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL luc -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] SET max -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET sasha -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> staff
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET zoe -> ms
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL daniel -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET zoe -> ms
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key zoe
-[shard_2] SET max -> postdoc
+[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] DEL toby -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key toby
 [shard_2] SET daniel -> phd
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET max -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
 [shard_2] SET ada -> adjunct
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
-[shard_2] SET max -> undergrad
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ada
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET max -> undergrad
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] DEL daniel -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key reese
 [shard_2] SET sasha -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> alum
-[shard_2] SET daniel -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
+[shard_2] SET daniel -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET zoe -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -202,46 +191,39 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] SET june -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] DEL sasha -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET june -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key daniel
-[shard_2] SET june -> adjunct
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key reese
 [shard_2] SET alayna -> faculty
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL toby -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] SET reese -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL june -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key june
 [shard_2] SET max -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET ada -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> phd
@@ -250,47 +232,43 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET toby -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] DEL ada -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET kira -> admin
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET zoe -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> ms
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key june
+[shard_2] SET zoe -> admin
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] SET zoe -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key reese
 [shard_2] SET reese -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] SET daniel -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL alayna -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
-[shard_2] SET max -> lecturer
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET luc -> student
 [shard_2] SET sasha -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET max -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
+[127.0.0.1:5045] No more replicas left to gossip to for key max
+[shard_2] SET luc -> student
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL max -> Success
@@ -300,18 +278,17 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET daniel -> postdoc
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL luc -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET daniel -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET toby -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL max -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
+[shard_2] SET luc -> visitor
 [shard_2] DEL zoe -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET luc -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -323,10 +300,12 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET kira -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET kira -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Success
@@ -339,39 +318,38 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL daniel -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL ada -> Not found
 [shard_2] SET reese -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL ada -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET ada -> postdoc
+[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET max -> intern
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ada -> postdoc
 [shard_2] SET toby -> researcher
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ada
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET max -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL max -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL toby -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key toby
 [shard_2] SET ravi -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key june
-[shard_2] DEL sasha -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
-[shard_2] SET ada -> student
+[shard_2] DEL sasha -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> student
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ada -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL sasha -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -404,126 +382,116 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key sasha
 [shard_2] SET ada -> ms
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET reese -> visitor
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET kira -> staff
+[shard_2] SET reese -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET alayna -> staff
+[127.0.0.1:5045] No more replicas left to gossip to for key reese
+[shard_2] SET kira -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET toby -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL kira -> Success
+[shard_2] SET alayna -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
-[shard_2] DEL june -> Not found
+[shard_2] DEL kira -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL alayna -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
+[shard_2] DEL june -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] DEL zoe -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET alayna -> faculty
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL toby -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET alayna -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL max -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET zoe -> admin
-[shard_2] DEL max -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key zoe
+[shard_2] SET ada -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL zoe -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] SET kira -> phd
-[shard_2] SET ada -> intern
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL kira -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key kira
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
-[shard_2] DEL kira -> Success
+[shard_2] DEL luc -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL kira -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL luc -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] DEL toby -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
+[shard_2] SET sasha -> faculty
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL sasha -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key kira
-[shard_2] SET sasha -> faculty
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> admin
+[shard_2] DEL sasha -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL sasha -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key june
-[shard_2] SET luc -> staff
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
+[shard_2] SET luc -> staff
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] DEL toby -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET daniel -> student2
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL daniel -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key reese
-[shard_2] SET daniel -> student2
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
-[shard_2] DEL daniel -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] DEL max -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET kira -> phd
 [shard_2] DEL daniel -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET kira -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] DEL reese -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL ada -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> intern
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL ada -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ada -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -537,7 +505,6 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key june
 [shard_2] SET max -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> grad
@@ -546,119 +513,112 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL daniel -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] SET luc -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key reese
 [shard_2] SET kira -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] SET max -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET alayna -> postdoc
+[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] SET ravi -> ms
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET alayna -> postdoc
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] DEL ravi -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> full-time
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
-[shard_2] SET toby -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> dropout
+[shard_2] SET toby -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL sasha -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
 [shard_2] SET alayna -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET kira -> ms
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET reese -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key reese
-[shard_2] SET kira -> full-time
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET luc -> student
 [shard_2] SET ravi -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET luc -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] DEL reese -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key reese
+[shard_2] SET kira -> full-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] DEL kira -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET alayna -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL june -> Success
 [shard_2] SET ravi -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET ravi -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET kira -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL june -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] DEL toby -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL ravi -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
+[shard_2] DEL ravi -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> undergrad
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key june
 [shard_2] SET sasha -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key sasha
 [shard_2] SET alayna -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] DEL max -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET alayna -> visitor
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET ada -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL alayna -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ada -> part-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL kira -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
-[shard_2] SET sasha -> student2
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
 [shard_2] DEL ada -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET sasha -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ada -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET reese -> part-time
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key reese
-[shard_2] SET zoe -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET zoe -> alum
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] SET alayna -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET toby -> ms
@@ -670,10 +630,9 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET ravi -> student
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> full-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] SET luc -> postdoc
@@ -682,7 +641,6 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL luc -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key luc
 [shard_2] DEL june -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET toby -> student2
@@ -692,15 +650,16 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] DEL ada -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET ravi -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET toby -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET reese -> adjunct
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL kira -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET reese -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL toby -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -716,7 +675,6 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] DEL ravi -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ada -> Not found
@@ -727,9 +685,9 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET daniel -> full-time
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> lecturer
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET daniel -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -739,30 +697,28 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET reese -> visitor
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET sasha -> intern
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET reese -> adjunct
+[shard_2] SET reese -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET sasha -> intern
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> part-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET reese -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key reese
+[shard_2] DEL reese -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> ms
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL kira -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL reese -> Not found
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET reese -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Success
@@ -771,7 +727,6 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key reese
 [shard_2] SET kira -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> alum
@@ -780,17 +735,15 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET toby -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL max -> Not found
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET zoe -> researcher
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL max -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL kira -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ada -> admin
 [shard_2] DEL ravi -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
-[shard_2] SET ada -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -802,26 +755,26 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET max -> grad
 [shard_2] SET alayna -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL kira -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET ravi -> phd
+[shard_2] SET max -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ravi -> phd
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL kira -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] SET max -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL zoe -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL zoe -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] DEL ravi -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET reese -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET zoe -> undergrad
@@ -834,6 +787,7 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL alayna -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET sasha -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> undergrad
@@ -844,9 +798,9 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ravi -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET toby -> lecturer
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> student
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET toby -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL reese -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -861,52 +815,52 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL max -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key max
-[shard_2] SET max -> dropout
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL luc -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key luc
+[shard_2] SET max -> dropout
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL daniel -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] SET daniel -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET toby -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET daniel -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] SET alayna -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET ravi -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET daniel -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] SET luc -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL daniel -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] SET max -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET zoe -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL zoe -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] SET sasha -> undergrad
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> postdoc
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -914,43 +868,38 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL max -> Success
 [shard_2] SET ada -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
-[shard_2] DEL max -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET ada -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
-[shard_2] SET toby -> phd
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key toby
 [shard_2] DEL max -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET toby -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL kira -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL daniel -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] SET reese -> ms
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] DEL zoe -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] SET kira -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET zoe -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] SET toby -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> grad
@@ -961,11 +910,13 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET alayna -> ms
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET zoe -> undergrad
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key alayna
 [shard_2] SET sasha -> full-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET zoe -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -973,64 +924,61 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL max -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET toby -> tenured
+[shard_2] DEL max -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL daniel -> Not found
+[shard_2] SET toby -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL alayna -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL daniel -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ada -> tenured
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key luc
-[shard_2] SET ada -> tenured
+[shard_2] DEL ada -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL ada -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET ravi -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET june -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET ravi -> student
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL june -> Success
+[shard_2] SET ravi -> student
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET luc -> undergrad
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL june -> Success
 [shard_2] SET daniel -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key luc
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL toby -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key toby
+[shard_2] DEL max -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> alum
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] DEL max -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL max -> Not found
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
 [shard_2] SET sasha -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ada -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ada
-[shard_2] DEL zoe -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET sasha -> visitor
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL zoe -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key sasha
 [shard_2] SET kira -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key kira
@@ -1042,13 +990,13 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] DEL daniel -> Success
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> intern
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET ravi -> phd
+[shard_2] DEL daniel -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> phd
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ravi -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET reese -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -1056,46 +1004,45 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ada -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ada
 [shard_2] SET daniel -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
 [shard_2] DEL alayna -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key daniel
-[shard_2] SET ravi -> admin
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET daniel -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ravi -> admin
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET sasha -> ms
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET toby -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key toby
 [shard_2] DEL zoe -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[shard_2] SET daniel -> researcher
+[127.0.0.1:5045] No more replicas left to gossip to for key zoe
 [shard_2] SET luc -> grad
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key luc
-[shard_2] SET zoe -> phd
+[shard_2] SET daniel -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET zoe -> part-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET zoe -> phd
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET max -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key max
-[shard_2] SET zoe -> part-time
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL ravi -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET zoe -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET ravi -> staff
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key ravi
-[shard_2] SET kira -> admin
-Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL toby -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET kira -> admin
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL kira -> Success
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
@@ -1106,7 +1053,6 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [127.0.0.1:5045] No more replicas left to gossip to for key ravi
 [shard_2] SET kira -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
-[127.0.0.1:5045] No more replicas left to gossip to for key kira
 [shard_2] SET reese -> student2
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET alayna -> admin
@@ -1125,9 +1071,71 @@ Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL june -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key june
 [shard_2] SET reese -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] SET kira -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
 [shard_2] DEL sasha -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL sasha -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key sasha
+[shard_2] SET max -> ms
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET max -> grad
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL luc -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL reese -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET sasha -> staff
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET zoe -> tenured
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET sasha -> alum
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key sasha
+[shard_2] SET daniel -> adjunct
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL ravi -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET kira -> phd
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET reese -> part-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET ravi -> part-time
+[shard_2] SET ada -> visitor
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL alayna -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL sasha -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET daniel -> faculty
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET zoe -> student
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL zoe -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[127.0.0.1:5045] No more replicas left to gossip to for key zoe
+[shard_2] SET ada -> part-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET zoe -> admin
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET alayna -> full-time
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET kira -> ms
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET reese -> ms
+[shard_2] DEL reese -> Success
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] DEL sasha -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET reese -> phd
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET luc -> staff
+Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json
+[shard_2] SET max -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5045_shard_2.json

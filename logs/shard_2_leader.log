@@ -2,14 +2,24 @@ SHARD_LEADER for shard_2 listening on 127.0.0.1:5040
 Shard Leader for shard_2 initialized at 127.0.0.1:5040
   -> Replicas: []
 Starting replica leader heartbeat loop...
-[shard_2] Registered new replica: 127.0.0.1:5048
-  -> Replicas: ['127.0.0.1:5048']
+[shard_2] Registered new replica: 127.0.0.1:5046
+  -> Replicas: ['127.0.0.1:5046']
+[shard_2] Registered new replica: 127.0.0.1:5042
+  -> Replicas: ['127.0.0.1:5046', '127.0.0.1:5042']
+[shard_2] Registered new replica: 127.0.0.1:5044
+  -> Replicas: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044']
 [shard_2] Registered new replica: 127.0.0.1:5045
-  -> Replicas: ['127.0.0.1:5048', '127.0.0.1:5045']
-[shard_2] Registered new replica: 127.0.0.1:5049
-  -> Replicas: ['127.0.0.1:5048', '127.0.0.1:5045', '127.0.0.1:5049']
+  -> Replicas: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045']
+[shard_2] Registered new replica: 127.0.0.1:5041
+  -> Replicas: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041']
+[shard_2] Registered new replica: 127.0.0.1:5047
+  -> Replicas: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041', '127.0.0.1:5047']
 [shard_2] Registered new replica: 127.0.0.1:5050
-  -> Replicas: ['127.0.0.1:5048', '127.0.0.1:5045', '127.0.0.1:5049', '127.0.0.1:5050']
+  -> Replicas: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041', '127.0.0.1:5047', '127.0.0.1:5050']
+[shard_2] Registered new replica: 127.0.0.1:5049
+  -> Replicas: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041', '127.0.0.1:5047', '127.0.0.1:5050', '127.0.0.1:5049']
+[shard_2] Registered new replica: 127.0.0.1:5048
+  -> Replicas: ['127.0.0.1:5046', '127.0.0.1:5042', '127.0.0.1:5044', '127.0.0.1:5045', '127.0.0.1:5041', '127.0.0.1:5047', '127.0.0.1:5050', '127.0.0.1:5049', '127.0.0.1:5048']
 [shard_2] SET june -> alum
 Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
 [shard_2] DEL max -> Not found
@@ -1234,25 +1244,3 @@ Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
 [shard_2] DEL luc -> Success
 Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
 [shard_2] DEL reese -> Success
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
-[shard_2] GET ada -> student
-[shard_2] GET daniel -> researcher
-[shard_2] GET ravi -> undergrad
-[shard_2] SET sasha -> staff
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
-[shard_2] SET sasha -> alum
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
-[shard_2] SET zoe -> tenured
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
-[shard_2] DEL ravi -> Success
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
-[shard_2] SET daniel -> adjunct
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
-[shard_2] SET kira -> phd
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
-[shard_2] GET max -> grad
-[shard_2] GET ada -> student
-[shard_2] SET reese -> part-time
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json
-[shard_2] SET ravi -> part-time
-Dictionary written to server/data-weak/127.0.0.1:5040_shard_2.json

@@ -4,24 +4,16 @@ Shard Leader for shard_0 initialized at 127.0.0.1:5001
 Starting replica leader heartbeat loop...
 [shard_0] Registered new replica: 127.0.0.1:5002
   -> Replicas: ['127.0.0.1:5002']
-[shard_0] Registered new replica: 127.0.0.1:5008
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008']
 [shard_0] Registered new replica: 127.0.0.1:5006
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008', '127.0.0.1:5006']
-[shard_0] Registered new replica: 127.0.0.1:5011
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008', '127.0.0.1:5006', '127.0.0.1:5011']
+  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5006']
 [shard_0] Registered new replica: 127.0.0.1:5003
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008', '127.0.0.1:5006', '127.0.0.1:5011', '127.0.0.1:5003']
-[shard_0] Registered new replica: 127.0.0.1:5004
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008', '127.0.0.1:5006', '127.0.0.1:5011', '127.0.0.1:5003', '127.0.0.1:5004']
-[shard_0] Registered new replica: 127.0.0.1:5010
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008', '127.0.0.1:5006', '127.0.0.1:5011', '127.0.0.1:5003', '127.0.0.1:5004', '127.0.0.1:5010']
+  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5006', '127.0.0.1:5003']
 [shard_0] Registered new replica: 127.0.0.1:5005
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008', '127.0.0.1:5006', '127.0.0.1:5011', '127.0.0.1:5003', '127.0.0.1:5004', '127.0.0.1:5010', '127.0.0.1:5005']
-[shard_0] Registered new replica: 127.0.0.1:5009
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008', '127.0.0.1:5006', '127.0.0.1:5011', '127.0.0.1:5003', '127.0.0.1:5004', '127.0.0.1:5010', '127.0.0.1:5005', '127.0.0.1:5009']
+  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5006', '127.0.0.1:5003', '127.0.0.1:5005']
+[shard_0] Registered new replica: 127.0.0.1:5011
+  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5006', '127.0.0.1:5003', '127.0.0.1:5005', '127.0.0.1:5011']
 [shard_0] Registered new replica: 127.0.0.1:5007
-  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5008', '127.0.0.1:5006', '127.0.0.1:5011', '127.0.0.1:5003', '127.0.0.1:5004', '127.0.0.1:5010', '127.0.0.1:5005', '127.0.0.1:5009', '127.0.0.1:5007']
+  -> Replicas: ['127.0.0.1:5002', '127.0.0.1:5006', '127.0.0.1:5003', '127.0.0.1:5005', '127.0.0.1:5011', '127.0.0.1:5007']
 [shard_0] SET li -> admin
 Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
 [shard_0] SET ren -> faculty
@@ -891,3 +883,23 @@ Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
 [shard_0] SET ellen -> student2
 Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
 [shard_0] SET ren -> researcher
+Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
+[shard_0] SET niko -> tenured
+Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
+[shard_0] GET jamie -> part-time
+[shard_0] SET ellen -> alum
+Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
+[shard_0] GET lina -> faculty
+[shard_0] GET mira -> staff
+[shard_0] SET lina -> alum
+Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
+[shard_0] SET sana -> part-time
+Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
+[shard_0] GET jamie -> part-time
+[shard_0] SET sana -> lecturer
+Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
+[shard_0] SET sana -> ms
+Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json
+[shard_0] GET avi -> alum
+[shard_0] SET avi -> tenured
+Dictionary written to server/data-weak/127.0.0.1:5001_shard_0.json

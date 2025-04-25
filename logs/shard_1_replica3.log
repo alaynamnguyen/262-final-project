@@ -2,23 +2,26 @@ REPLICA for shard_1 listening on 127.0.0.1:5023
 Replica for shard_1 initialized at 127.0.0.1:5023
   -> Leader: 127.0.0.1:5020
 Starting replica heartbeat loop...
-  -> Updated replica list: ['127.0.0.1:5022', '127.0.0.1:5028', '127.0.0.1:5025', '127.0.0.1:5023', '127.0.0.1:5024']
-  -> Updated replica list: ['127.0.0.1:5022', '127.0.0.1:5028', '127.0.0.1:5025', '127.0.0.1:5023', '127.0.0.1:5024']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022', '127.0.0.1:5021', '127.0.0.1:5025']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022', '127.0.0.1:5021', '127.0.0.1:5025']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022', '127.0.0.1:5021', '127.0.0.1:5025', '127.0.0.1:5028']
 [shard_1] Received data store from leader: {}
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Successfully registered replica with shard leader at 127.0.0.1:5020
-  -> Updated replica list: ['127.0.0.1:5022', '127.0.0.1:5028', '127.0.0.1:5025', '127.0.0.1:5023', '127.0.0.1:5024', '127.0.0.1:5026']
-  -> Updated replica list: ['127.0.0.1:5022', '127.0.0.1:5028', '127.0.0.1:5025', '127.0.0.1:5023', '127.0.0.1:5024', '127.0.0.1:5026', '127.0.0.1:5029']
-  -> Updated replica list: ['127.0.0.1:5022', '127.0.0.1:5028', '127.0.0.1:5025', '127.0.0.1:5023', '127.0.0.1:5024', '127.0.0.1:5026', '127.0.0.1:5029', '127.0.0.1:5021']
-  -> Updated replica list: ['127.0.0.1:5022', '127.0.0.1:5028', '127.0.0.1:5025', '127.0.0.1:5023', '127.0.0.1:5024', '127.0.0.1:5026', '127.0.0.1:5029', '127.0.0.1:5021', '127.0.0.1:5027']
-  -> Updated replica list: ['127.0.0.1:5022', '127.0.0.1:5028', '127.0.0.1:5025', '127.0.0.1:5023', '127.0.0.1:5024', '127.0.0.1:5026', '127.0.0.1:5029', '127.0.0.1:5021', '127.0.0.1:5027', '127.0.0.1:5030']
-[shard_1] SET leo -> adjunct
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022', '127.0.0.1:5021', '127.0.0.1:5025', '127.0.0.1:5028', '127.0.0.1:5029']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022', '127.0.0.1:5021', '127.0.0.1:5025', '127.0.0.1:5028', '127.0.0.1:5029', '127.0.0.1:5024']
+  -> Updated replica list: ['127.0.0.1:5030', '127.0.0.1:5023', '127.0.0.1:5026', '127.0.0.1:5022', '127.0.0.1:5021', '127.0.0.1:5025', '127.0.0.1:5028', '127.0.0.1:5029', '127.0.0.1:5024', '127.0.0.1:5027']
 [shard_1] SET ivy -> staff
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key ivy
+[shard_1] SET leo -> adjunct
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key bryn
 [shard_1] DEL ari -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> ms
@@ -27,6 +30,7 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ivy
 [shard_1] SET yinan -> alum
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> staff
@@ -39,25 +43,28 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ivy
 [shard_1] SET ari -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ari
 [shard_1] SET yinan -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL emery -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key emery
 [shard_1] SET bryn -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> staff
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL noah -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL noah -> Success
 [shard_1] DEL kai -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL kai -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL noah -> Success
+[shard_1] DEL noah -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -69,14 +76,12 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [127.0.0.1:5023] No more replicas left to gossip to for key leo
 [shard_1] DEL yinan -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> visitor
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL leo -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL emery -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -84,19 +89,21 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL bryn -> Success
+[shard_1] DEL emery -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> researcher
-[shard_1] SET emery -> grad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL bryn -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET emery -> grad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> visitor
-[shard_1] SET kai -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET kai -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL kai -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -106,6 +113,7 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ari
 [shard_1] SET theo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> adjunct
@@ -114,12 +122,11 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key bryn
 [shard_1] DEL emery -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET kai -> student
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> student2
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET kai -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -133,17 +140,18 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET kai -> full-time
 [shard_1] DEL noah -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET kai -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL noah -> Not found
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL noah -> Not found
 [shard_1] SET noah -> adjunct
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key noah
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -151,6 +159,7 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key yinan
 [shard_1] SET noah -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> dropout
@@ -161,10 +170,8 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key emery
 [shard_1] SET ivy -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key ivy
 [shard_1] DEL leo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL yinan -> Success
@@ -177,57 +184,57 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key leo
 [shard_1] DEL noah -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key noah
 [shard_1] SET noah -> alum
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL yinan -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL yinan -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key yinan
 [shard_1] DEL bryn -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL kai -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ari -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ari
 [shard_1] DEL bryn -> Not found
-[shard_1] DEL kai -> Not found
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET emery -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key kai
+[shard_1] DEL kai -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET emery -> undergrad
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key noah
 [shard_1] DEL bryn -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL kai -> Success
+[127.0.0.1:5023] No more replicas left to gossip to for key bryn
+[shard_1] DEL kai -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET leo -> lecturer
+[shard_1] SET emery -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET emery -> part-time
+[shard_1] SET leo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key emery
 [shard_1] SET kai -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> staff
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] DEL emery -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key emery
 [shard_1] SET theo -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> faculty
@@ -236,25 +243,23 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key ari
 [shard_1] SET noah -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key noah
 [shard_1] SET emery -> staff
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET noah -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET noah -> tenured
-[shard_1] SET kai -> phd
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL noah -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET kai -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> grad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL ari -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> full-time
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL ari -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -264,31 +269,34 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ari -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ari
 [shard_1] SET theo -> student2
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] SET leo -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key leo
 [shard_1] SET noah -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> alum
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL theo -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> faculty
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL theo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key kai
 [shard_1] SET kai -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL theo -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ivy
 [shard_1] DEL leo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> student2
@@ -315,19 +323,18 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key leo
 [shard_1] SET noah -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key noah
 [shard_1] SET kai -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL kai -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key kai
-[shard_1] SET noah -> ms
 [shard_1] SET ivy -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET noah -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -339,6 +346,7 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ari
 [shard_1] SET bryn -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> researcher
@@ -346,55 +354,51 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [127.0.0.1:5023] No more replicas left to gossip to for key noah
-[shard_1] SET bryn -> adjunct
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key yinan
-[shard_1] SET noah -> faculty
+[shard_1] SET bryn -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key bryn
-[shard_1] SET noah -> intern
+[shard_1] SET noah -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL bryn -> Not found
+[shard_1] SET noah -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> tenured
+[shard_1] DEL bryn -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET bryn -> tenured
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ari -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET theo -> lecturer
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL leo -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET theo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL noah -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key bryn
 [shard_1] DEL yinan -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key yinan
-[shard_1] DEL theo -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET leo -> alum
-[shard_1] SET yinan -> adjunct
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> student2
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET emery -> full-time
+[shard_1] DEL theo -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET leo -> alum
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET yinan -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key ari
+[shard_1] SET emery -> full-time
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key emery
 [shard_1] DEL kai -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> undergrad
@@ -406,15 +410,16 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [127.0.0.1:5023] No more replicas left to gossip to for key ari
 [shard_1] SET theo -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] SET kai -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL noah -> Not found
 [shard_1] SET theo -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> staff
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL noah -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL theo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -424,12 +429,13 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET kai -> alum
 [shard_1] DEL kai -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET kai -> alum
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key emery
 [shard_1] SET theo -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> lecturer
@@ -438,33 +444,33 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL theo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] SET ari -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ari -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> staff
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] SET yinan -> visitor
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET yinan -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET yinan -> intern
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL theo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] SET bryn -> admin
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET leo -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL leo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET leo -> tenured
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> grad
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ivy
 [shard_1] DEL theo -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET bryn -> grad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -472,14 +478,13 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> staff
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key bryn
 [shard_1] SET leo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET kai -> visitor
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL noah -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET kai -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> grad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -489,12 +494,12 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> staff
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET leo -> student2
+[shard_1] SET bryn -> staff
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> dropout
+[shard_1] SET leo -> student2
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> visitor
@@ -503,26 +508,22 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL theo -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] SET kai -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ari -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ivy -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key ivy
 [shard_1] SET yinan -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key yinan
 [shard_1] DEL emery -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL emery -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL yinan -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key yinan
 [shard_1] SET noah -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> grad
@@ -531,62 +532,65 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL ivy -> Not found
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> alum
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL ivy -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET emery -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET leo -> researcher
+[shard_1] SET emery -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> student
+[127.0.0.1:5023] No more replicas left to gossip to for key emery
+[shard_1] SET leo -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET kai -> grad
+[shard_1] SET bryn -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET yinan -> faculty
+[shard_1] SET kai -> grad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL leo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET ivy -> dropout
+[shard_1] SET yinan -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL bryn -> Success
+[127.0.0.1:5023] No more replicas left to gossip to for key yinan
+[shard_1] SET ivy -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET theo -> lecturer
+[shard_1] DEL bryn -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> student
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET theo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> dropout
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET bryn -> dropout
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key bryn
 [shard_1] SET noah -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key noah
 [shard_1] SET kai -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> student2
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key ari
-[shard_1] DEL noah -> Success
 [shard_1] SET kai -> grad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL noah -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key noah
 [shard_1] SET emery -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ivy -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL kai -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key kai
 [shard_1] SET emery -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> visitor
@@ -595,137 +599,131 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL theo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL theo -> Not found
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key theo
+[shard_1] DEL theo -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL emery -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET leo -> lecturer
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> researcher
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET leo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET ivy -> postdoc
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL yinan -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key yinan
+[shard_1] SET bryn -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET ivy -> postdoc
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> ms
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ivy -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL ari -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET ari -> researcher
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key ivy
+[shard_1] SET ari -> researcher
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> part-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key bryn
 [shard_1] SET kai -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> alum
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET bryn -> student2
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL yinan -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> student2
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key yinan
 [shard_1] SET yinan -> undergrad
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> student2
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET bryn -> student2
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET ivy -> visitor
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL noah -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET ivy -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL ari -> Success
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL ari -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ari
 [shard_1] DEL ivy -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET theo -> researcher
+[shard_1] SET leo -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET leo -> ms
+[shard_1] SET theo -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key leo
+[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] SET kai -> staff
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET kai -> faculty
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET noah -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key bryn
+[shard_1] SET kai -> faculty
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET noah -> faculty
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL leo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> staff
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key emery
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key bryn
 [shard_1] SET ivy -> undergrad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key theo
 [shard_1] SET ari -> student2
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET noah -> researcher
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> alum
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET noah -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ivy -> ms
-[shard_1] SET noah -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET noah -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> staff
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key kai
 [shard_1] SET ivy -> grad
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET emery -> alum
 [shard_1] SET theo -> visitor
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key emery
+[shard_1] SET emery -> alum
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET theo -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -737,42 +735,43 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL yinan -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key yinan
 [shard_1] SET leo -> lecturer
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL noah -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> phd
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET theo -> tenured
+[shard_1] DEL noah -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET yinan -> student2
+[shard_1] SET theo -> tenured
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> student
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[127.0.0.1:5023] No more replicas left to gossip to for key kai
-[shard_1] DEL ivy -> Success
+[shard_1] SET yinan -> student2
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> lecturer
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] DEL ivy -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> alum
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key emery
 [shard_1] SET bryn -> adjunct
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL bryn -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET noah -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET bryn -> researcher
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL emery -> Success
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET bryn -> researcher
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL yinan -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET ivy -> ms
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key yinan
 [shard_1] SET theo -> faculty
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET ivy -> ms
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[127.0.0.1:5023] No more replicas left to gossip to for key ivy
 [shard_1] DEL kai -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL emery -> Not found
@@ -780,8 +779,8 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL emery -> Not found
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET kai -> undergrad
-[shard_1] SET theo -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET theo -> ms
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET ari -> full-time
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -790,8 +789,8 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET yinan -> intern
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET bryn -> alum
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> grad
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL noah -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
@@ -801,15 +800,15 @@ Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET leo -> dropout
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET yinan -> postdoc
 [shard_1] DEL kai -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET yinan -> postdoc
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] DEL theo -> Success
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] SET emery -> adjunct
-Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
 [shard_1] SET emery -> alum
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
-[shard_1] DEL ivy -> Success
+[shard_1] SET emery -> adjunct
+Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
+[shard_1] SET yinan -> admin
 Dictionary written to server/data-weak/127.0.0.1:5023_shard_1.json
