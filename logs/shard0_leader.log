@@ -1,3 +1,0 @@
-usage: shard.py [-h] --role {shard_leader,replica} --shard-id SHARD_ID --port
-                PORT
-shard.py: error: unrecognized arguments: --host 127.0.0.1

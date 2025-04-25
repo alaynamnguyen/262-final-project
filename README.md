@@ -10,3 +10,10 @@ python server/shard.py --role shard_leader --shard-id shard_0 --port 5001 --conf
 python server/shard.py --role replica --shard-id shard_0 --port 5002 --config configs/config.json
 python client/client.py --file client/commands.txt
 ```
+
+```bash
+brew install jq
+
+bash spin_up.sh configs/config-10-weak.json
+bash spin_down.sh
+```

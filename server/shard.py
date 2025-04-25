@@ -27,10 +27,10 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         self.store = {}
         self.replicas = [] # Does not include the leader address
         self.shard_id = shard_id
-        self.filepath = f'server/data/{self.local_address}_{self.shard_id}.json'
-        self.command_file = f'server/runs/{self.local_address}_{self.shard_id}.txt'
         self.logical_clock = 0
         self.mode = config["mode"]
+        self.command_file = f'server/run-{self.mode}/{self.local_address}_{self.shard_id}.txt'
+        self.filepath = f'server/data-{self.mode}/{self.local_address}_{self.shard_id}.json'
 
         header_line = f"system_time logical_clock command status\n"
         utils.write_line_to_txt(self.command_file, header_line, "w")

@@ -24,7 +24,7 @@ class LeaderLeaderServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
 
     def get_shard_id(self, key):
         shard_index = self.hash_key(key) % len(self.shard_map)
-        shard_index = 0  # TODO remove after testing
+        # shard_index = 0  # TODO remove after testing
         return f"shard_{shard_index}"
 
     def forward_to_shard(self, method, key, request):

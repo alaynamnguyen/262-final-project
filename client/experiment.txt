@@ -1,1000 +1,2000 @@
-set yinan student2
-set sana grad
-delete alayna
-set li alum
-set theo grad
-set theo alum
-get luc
-set sasha student2
-get sana
-set ivy phd
-set luc alum
-get ellen
-delete li
-delete ellen
-set yinan student
-get theo
-set noah grad
-get li
-delete ellen
-set daniel alum
-delete noah
-set noah phd
-set mira visitor
-set noah visitor
-set daniel dropout
-set mira undergrad
-set li visitor
-delete daniel
-set mira visitor
-delete sasha
-delete daniel
-delete daniel
+get kai
+set ivy staff
+set june alum
+delete max
+set leo adjunct
+get kira
+set bryn dropout
+set max part-time
+set zoe part-time
+delete zoe
+set li admin
+set ren faculty
+set ada adjunct
+delete lina
+set ellen tenured
+get lina
+delete ari
+delete ren
+set ren admin
 get niko
-delete niko
+delete kira
+set daniel student
+get noah
+set yinan ms
+set ellen dropout
+get ellen
+set emery intern
+set ivy visitor
+set ada postdoc
+set avi full-time
 set yinan alum
-delete alayna
-set mira grad
-set theo grad
+set niko grad
+set ravi admin
+get jamie
+get sana
+set niko full-time
+set li full-time
+delete li
+set daniel grad
+set sana intern
+get sana
+get avi
+set noah staff
+set alayna phd
+set lina researcher
+get ari
+set sana admin
+delete sana
+get ellen
+get toby
 delete luc
+delete ada
 set theo undergrad
-delete yinan
-set niko undergrad
-get leo
-delete sasha
-set ellen staff
-set ivy undergrad
-get sasha
-set ellen undergrad
-delete leo
-set mira staff
+set max postdoc
+set ren intern
+delete niko
+delete mira
+set max lecturer
 get daniel
-set niko student2
-set theo grad
-set kai ms
-set ivy student
-set theo phd
-set daniel student2
-set yinan dropout
-set daniel ms
-delete leo
-delete li
-set kai visitor
-get niko
-set kai phd
-get daniel
-set leo dropout
-set luc dropout
-delete yinan
-set kai student2
-get kai
-set niko visitor
-delete alayna
-set alayna alum
-delete kai
-set noah staff
-delete sasha
-delete ivy
-set daniel student
-set niko student2
-delete niko
-set leo phd
-delete luc
-get theo
-set mira alum
-get ivy
-get li
-delete li
-get alayna
-get sasha
-set ellen grad
-set niko student
-set ellen grad
 get leo
-set niko student
+set emery student
 delete mira
-delete theo
-get ivy
-delete alayna
-delete niko
-set sasha student2
-set daniel student
-get sana
-delete alayna
-delete ellen
-set theo alum
-delete theo
-set ivy undergrad
-set luc undergrad
-get li
-delete mira
-get theo
-set luc staff
-get mira
-set ellen alum
-get ellen
-delete li
-delete sasha
-delete noah
-get luc
-set mira dropout
-get alayna
-get sasha
-get leo
-set kai student2
-get niko
-delete mira
-get yinan
-delete niko
-set ellen student2
-set alayna staff
-set sasha dropout
-set theo grad
-set leo student2
-delete leo
-set yinan alum
-delete mira
-get sana
-get alayna
-delete kai
-get ellen
-set kai student
-set ivy phd
-set mira ms
-set kai undergrad
-get ellen
-set li dropout
-set luc grad
-get mira
-get noah
-set theo alum
-set noah student2
-get alayna
-set luc alum
-set mira student2
-set daniel visitor
-set sana alum
-get kai
-delete kai
-get kai
-delete sana
-set daniel phd
-set niko dropout
-set daniel grad
-get kai
-set li undergrad
-get li
-set noah ms
-set mira student
-delete alayna
-get niko
-set luc alum
-get li
-set kai student2
-set sasha staff
-set alayna dropout
-set sasha staff
-get alayna
-set sana phd
-delete daniel
-delete noah
-set sasha student2
-set noah dropout
-get yinan
-get kai
-get sana
-get yinan
-set theo phd
-get alayna
-set ellen grad
-set sasha alum
-set sasha dropout
-set yinan staff
-set leo student2
-set ellen phd
-delete yinan
-delete ellen
-get ivy
-delete sasha
-delete ellen
-set mira dropout
-set mira alum
-set ivy grad
-get alayna
-get niko
-get noah
-set theo phd
+get jamie
 set kai staff
-get leo
+get alayna
+get lina
+delete ravi
+get max
+get ari
+set luc ms
+delete niko
+set ivy admin
+get ari
 get ellen
-get ellen
-get noah
-set sasha ms
-get sana
-get yinan
-set luc student2
-delete mira
-delete kai
-delete theo
-get ellen
-delete daniel
-set mira ms
-set luc grad
-get mira
 get kai
-set yinan dropout
-set mira staff
-delete daniel
-get daniel
-set sana undergrad
-set leo visitor
-set noah undergrad
-set ellen grad
-get kai
-delete ellen
-set sana alum
-set yinan ms
-set alayna visitor
-set niko dropout
-get ivy
-get daniel
-get noah
-get ellen
-set ellen student
+set ari intern
+delete ada
 set luc visitor
-set li staff
-set ellen undergrad
-get theo
-get luc
+set mira full-time
+set yinan part-time
+set max researcher
+delete emery
 delete alayna
-get sasha
-set ivy staff
-set niko student
-set li grad
-delete ellen
-set ivy dropout
-delete yinan
-set ellen staff
-set leo staff
+delete mira
+set daniel undergrad
+delete lina
+set bryn student
+set ravi faculty
+get ellen
+set june faculty
+set sana phd
+set noah staff
+set zoe student2
+delete zoe
+get ada
+get ada
+set luc student2
+set daniel admin
 get mira
-get kai
-get sasha
-get luc
+set noah lecturer
+delete kai
+delete noah
+set kira student2
+set daniel adjunct
+delete kai
+set toby researcher
+set ravi admin
+set zoe visitor
+get sana
+get kira
+set daniel lecturer
 get leo
-delete sana
-get yinan
-get theo
-delete yinan
-get leo
-get kai
-delete luc
-get noah
+get lina
+delete alayna
+delete noah
+get zoe
+set ari student
 set ellen student2
-get noah
-get luc
-delete mira
-set daniel undergrad
-set luc staff
-set ivy undergrad
-set ellen student
-set ellen visitor
-delete yinan
-get ellen
-set li grad
-set sana alum
-set niko student2
-set ivy student2
-get luc
-set niko visitor
-get luc
-get luc
-get sana
-delete sasha
-set niko undergrad
-get daniel
+get zoe
+set leo admin
+get ada
 set luc dropout
-set alayna phd
-set luc grad
-set sasha grad
-set luc phd
-get li
-get noah
-set niko student2
-delete kai
-get sana
-get sana
-get yinan
-get theo
-set noah phd
-set ellen visitor
-get ivy
-set sasha phd
-delete niko
-get alayna
-set ellen undergrad
-delete kai
-delete niko
-set yinan dropout
-set ellen undergrad
-set sana dropout
-set leo ms
-get sasha
-set niko alum
-set sana visitor
-set leo ms
-delete daniel
-delete yinan
-get ivy
-set ivy dropout
-delete alayna
-set sana undergrad
+set kira student2
+set leo full-time
+delete bryn
 delete li
-delete luc
-set ivy dropout
-delete noah
-set alayna visitor
-set ellen dropout
-set sasha staff
-get ivy
-get ellen
+set max researcher
+set june intern
+get kai
+set li undergrad
 delete niko
+delete yinan
+get toby
+get alayna
+set ravi tenured
+set bryn visitor
+set jamie faculty
 get luc
-set noah visitor
-delete sasha
-delete alayna
-set niko ms
-set niko alum
-set sasha staff
-set alayna alum
-delete mira
-set ellen student
-get mira
 delete luc
-delete sana
-get ellen
-set mira ms
-delete luc
-get noah
-set yinan student2
+set leo lecturer
+set ellen staff
+set ravi adjunct
+set sasha full-time
+delete leo
+get jamie
+set niko postdoc
+get sana
+get zoe
+set theo full-time
+delete jamie
+delete emery
+delete lina
+delete emery
+get max
+set bryn undergrad
+get niko
+get avi
+delete ellen
+set ellen ms
+get li
+set toby admin
+set li faculty
+delete bryn
+set emery grad
+set leo researcher
+set niko tenured
+set max tenured
+set ivy lecturer
 get ivy
-set noah undergrad
-delete sana
-set theo ms
-set alayna phd
-set niko grad
-delete theo
-set ivy ms
+delete daniel
+delete kira
+delete mira
+delete reese
+set zoe lecturer
+set li faculty
+set sasha visitor
+set max full-time
+set toby tenured
+set ren part-time
+set avi ms
+get ren
+get ren
+get leo
+set lina researcher
+get li
+set jamie staff
+set kira student2
+get zoe
+get june
+set jamie undergrad
+get sana
+get kai
+get max
+delete reese
+delete alayna
+set ren dropout
+get emery
+set li postdoc
+delete niko
+set ada lecturer
+set luc lecturer
 set leo dropout
-set yinan grad
-set niko staff
-set li undergrad
-delete ellen
-set leo phd
+set ada part-time
+get sasha
+get kira
+set zoe dropout
+get max
+get ivy
+delete june
+get jamie
+set leo visitor
+get ravi
+delete li
+set kai admin
+delete luc
 delete kai
-set daniel student2
-set sasha visitor
-set sana grad
-set noah phd
-set leo student2
-set ellen visitor
-set yinan alum
-set niko student2
-set ellen staff
-get ivy
-get sana
-set niko alum
-get ivy
-set ivy ms
-set ellen dropout
-set yinan alum
-get yinan
-get leo
-set niko phd
-set li grad
-delete alayna
-set li ms
-get alayna
+get ari
+get ari
+get noah
+set avi student2
+set li postdoc
 set sana student2
-set leo student2
-set yinan dropout
-get noah
-get ivy
-delete luc
-set ivy alum
-delete alayna
-set sana staff
-set leo ms
+set max researcher
 get theo
-delete sana
-delete noah
-set noah staff
-get niko
-set theo ms
-set ivy grad
-delete sasha
-set sasha staff
-get kai
-set alayna student
-get ivy
-delete luc
-delete alayna
-get kai
-set niko staff
-set daniel alum
-set luc alum
-delete ellen
-set sana alum
-set sasha alum
-set noah student
-set luc student2
-delete sasha
-delete ivy
-delete kai
-set alayna dropout
-get alayna
-set luc student
-set daniel student2
-get sasha
-set li student
-delete luc
-set alayna undergrad
-get sasha
-set mira phd
-set ivy grad
-set theo alum
-set mira visitor
-get kai
-set ivy phd
-get kai
-set kai ms
-get li
-get noah
-set leo grad
-delete kai
-set ellen dropout
-get daniel
-set ellen dropout
-get leo
-delete sasha
-delete ivy
-set sasha staff
-delete sana
-set ellen staff
-delete niko
-get ellen
-get daniel
-set ivy undergrad
-set sasha visitor
-set mira undergrad
-get sasha
-set sana staff
-get kai
-get kai
-set yinan student2
-set li phd
-delete ellen
-set mira dropout
-set sasha grad
-get kai
-get luc
-delete luc
-set luc staff
-delete noah
-delete ellen
-set noah dropout
-set sana visitor
-set noah visitor
-get alayna
-get daniel
-get niko
-delete ellen
-delete noah
-set ellen grad
-get theo
-set leo alum
-set alayna visitor
-delete sana
-set noah undergrad
-get kai
-set theo student
-get leo
-delete li
-delete noah
-set daniel phd
-delete noah
-get ivy
-get ivy
-set daniel grad
-get ellen
-set ivy phd
-set sasha phd
-get daniel
-delete daniel
-set li visitor
-delete li
-get kai
+set kai grad
 get mira
-get alayna
-set ellen grad
-get leo
-set alayna dropout
-set mira visitor
-get mira
-set mira staff
-set theo alum
-set yinan visitor
-get sana
-get luc
-set sana phd
-set mira visitor
-set mira undergrad
-delete alayna
-get ivy
-set luc undergrad
+set ari lecturer
+set ari lecturer
 set li ms
-delete li
-set noah visitor
-set yinan ms
-delete ellen
-get yinan
-set ivy visitor
-set leo student2
-set leo student
-get daniel
-set alayna alum
-set kai visitor
-delete luc
-get mira
-delete niko
-set sana dropout
-get theo
-set alayna alum
-get mira
-set noah phd
-set niko alum
-set mira staff
-get ellen
-set sana alum
-set mira ms
-get leo
-set niko undergrad
-get sana
-set yinan undergrad
-set luc undergrad
-get theo
-delete noah
-set li alum
-delete li
-get sana
-set niko grad
-delete alayna
-set mira phd
-set daniel student
-get luc
-get li
-set daniel visitor
-set theo grad
-delete sana
-set daniel alum
-delete noah
-set theo phd
-set noah student2
-set leo grad
-set niko student2
-get sasha
-get ellen
-set kai visitor
-set niko dropout
-get sasha
-delete alayna
-delete luc
-set alayna dropout
-set alayna student
-delete li
-set luc student2
+set sasha adjunct
+get alayna
+set sana student
 get kai
+set theo lecturer
+get daniel
+get ravi
+get luc
+set avi lecturer
 set mira student2
+get ellen
+set ari adjunct
+get leo
+set max staff
+delete emery
+get yinan
+get daniel
+set bryn phd
+set ravi staff
+delete daniel
+delete avi
+set zoe ms
+get alayna
+delete toby
+set max postdoc
+get kira
+set daniel phd
+set jamie adjunct
+get bryn
+get sasha
+get kai
+get toby
+delete emery
+get sana
 set sasha visitor
-set leo ms
-get kai
-get kai
-delete leo
-set ellen dropout
-set niko alum
-set kai alum
-set theo alum
-set luc visitor
-delete kai
-set noah ms
-get luc
-set alayna visitor
-set alayna undergrad
-get alayna
-set mira alum
-get mira
-set ellen undergrad
-get ivy
-set alayna alum
-set li phd
-get kai
-delete theo
-delete ivy
-get li
-set leo staff
-set kai phd
-delete leo
-delete kai
-get leo
-set theo student2
-delete ivy
-get niko
-get daniel
-delete ellen
-set kai student
-delete noah
-set li staff
-set mira phd
-get alayna
-set ellen student
-get daniel
-get niko
-delete li
-set mira student
-set noah phd
-set ellen staff
-get yinan
-set li student
-set ellen alum
-set sana staff
-get li
-get ivy
-set alayna ms
-get noah
-set leo alum
-set mira dropout
+set ada adjunct
+set li part-time
 get theo
-set mira visitor
-get kai
-set mira ms
-get sana
-delete alayna
-set li undergrad
-set kai dropout
-set leo alum
-set leo alum
-set ellen grad
-set ivy grad
-set niko alum
-set li phd
-get alayna
-get mira
-set sasha staff
-set yinan visitor
-set noah dropout
-delete ellen
-delete leo
-set yinan grad
-set li staff
-set ellen alum
-get sasha
-get ivy
+set max undergrad
+get reese
+set ravi grad
 delete daniel
-delete theo
-set alayna visitor
-delete niko
-set sana student2
-set daniel visitor
-delete yinan
-set niko grad
-set niko visitor
-set sana student
-set yinan staff
-delete li
-get luc
-get ellen
-get daniel
-set alayna ms
-get ellen
-get yinan
-set sasha ms
-set mira student2
-set sasha staff
-delete ivy
-get luc
-set yinan undergrad
-get sasha
-set luc student2
-set niko student
-set li student
-set alayna student2
-set yinan phd
-get ivy
-set leo alum
-get leo
-set theo dropout
-delete li
-set leo student
-set noah student
-set ellen alum
-set ivy staff
-get daniel
-delete theo
-delete mira
-get ellen
-set ivy alum
-get alayna
-delete theo
-set ivy ms
-set luc student
-set theo dropout
-set ivy dropout
-set yinan undergrad
-set leo staff
-get theo
-set mira dropout
-set noah visitor
-set daniel phd
-get theo
-delete luc
-set luc ms
-delete mira
-delete yinan
-delete mira
-get li
-get ellen
-get alayna
-get sasha
-get sasha
-set theo grad
-set theo phd
-set yinan phd
-set sana alum
-set yinan alum
-delete kai
-get luc
-get ivy
-get niko
-set ellen visitor
-set ellen grad
-get theo
-set daniel undergrad
-get luc
-set li student2
-set niko undergrad
+get ren
+set avi intern
+set lina admin
+set reese faculty
+delete ren
 delete ellen
-get leo
-delete kai
-set mira visitor
-get mira
-set mira phd
-set niko ms
-get leo
-set leo dropout
-get theo
-delete theo
-set yinan visitor
-get luc
-delete niko
-set li alum
-set theo student
-get niko
-get sana
-get leo
-get sasha
-delete leo
-delete noah
-set ivy grad
-delete mira
-get theo
-set alayna staff
-set daniel student
-get sana
-set noah staff
-delete daniel
-get daniel
-get ivy
-set sana dropout
-delete mira
-set leo student2
-get yinan
-delete theo
-set sana alum
-delete sana
-set noah student2
-set theo ms
-set alayna student
-get noah
-set kai dropout
-set luc phd
-set kai student
-set li undergrad
-get li
-set sana visitor
-get kai
-delete leo
-set theo visitor
-set daniel visitor
-set daniel phd
-delete alayna
-get ellen
-get yinan
-set sana undergrad
-get yinan
-set daniel undergrad
-get sana
-get li
-get daniel
-set alayna visitor
-get alayna
-set ivy undergrad
-delete leo
-set sasha alum
-set yinan phd
-set niko undergrad
-set noah visitor
-set yinan undergrad
-set leo phd
-get sana
-set luc alum
-delete niko
-set mira dropout
-set daniel student2
-get luc
-set noah student2
-set kai alum
-set luc alum
-set ellen staff
-set noah undergrad
-set theo staff
-set sana student
-get li
-get ivy
-delete sana
-set sana ms
-delete mira
-delete li
-set sasha phd
-set sasha student2
-delete mira
-set alayna alum
-set kai dropout
-get luc
-get niko
-set li alum
-set ivy undergrad
-delete noah
-get kai
-delete sasha
-get leo
-set luc undergrad
-delete yinan
-set ellen alum
-get sana
 set sasha dropout
-set niko staff
-set noah student
-get niko
-delete sasha
-get luc
-set luc alum
-set niko ms
-set li phd
-set alayna visitor
-set sasha alum
-set ellen undergrad
-set yinan grad
-set ivy visitor
-set luc student2
-set alayna visitor
-set yinan student
-set theo grad
-set leo grad
-set noah student
-get sasha
-get sana
-delete li
-get mira
-set mira student2
-delete leo
-get alayna
-set leo student
-get luc
-delete daniel
-get theo
-get kai
-delete noah
-set noah staff
-delete yinan
-get leo
-set luc ms
-get ivy
-set sana phd
-delete ellen
-set luc dropout
-set luc phd
-get noah
-get luc
-delete li
-get niko
-set li grad
-delete sana
-set theo visitor
-set sasha phd
-set mira student2
-set ellen visitor
-delete li
-set ivy visitor
-delete yinan
-delete mira
-set li phd
-set yinan undergrad
-get ellen
-set daniel phd
-get leo
-get theo
-set sasha undergrad
-set ellen alum
-set kai phd
-set leo staff
-delete noah
-set noah student
-set luc alum
-delete leo
-delete ellen
-get sasha
-set niko staff
-set theo phd
-set noah student
-set alayna student2
-set ellen student
-get kai
-delete sana
-set leo student
-get mira
-set daniel student
-get niko
-set ellen staff
 set daniel alum
-delete li
-set luc visitor
-set ivy staff
-set kai visitor
-get leo
-get sana
-delete ellen
-get leo
+set daniel part-time
+set zoe adjunct
+set niko undergrad
+get max
+set mira visitor
+set ren intern
+set zoe undergrad
+set bryn student2
+set kai student
+delete jamie
+get yinan
+delete daniel
+get mira
+set bryn student
+set sana tenured
+delete ivy
+get daniel
+delete ren
+set theo phd
+delete leo
+set kai dropout
+delete luc
+set alayna student2
+set leo phd
+get sasha
+get mira
+delete noah
+get kira
+set kai full-time
+set mira student
+delete bryn
+delete avi
+set emery part-time
+delete noah
+get yinan
+get alayna
+set noah adjunct
+get ivy
+get ivy
+delete bryn
+set noah full-time
+get reese
+set luc part-time
+set june postdoc
+set lina full-time
+set yinan student
+delete mira
+set mira ms
+set ren adjunct
+set jamie lecturer
+set noah ms
+set luc lecturer
+set li postdoc
 delete sasha
-get luc
-set noah phd
-set mira alum
-get theo
-get ellen
-set luc visitor
-delete theo
-set kai ms
-set daniel dropout
-set li alum
 get li
 get kai
+set mira student2
+set daniel admin
+set june adjunct
+get sasha
+set emery dropout
+delete theo
+set jamie grad
+set ari visitor
+delete avi
+set june part-time
+set emery tenured
+get emery
+set li lecturer
+set ivy admin
+set reese researcher
+get ren
+set jamie phd
+set ellen tenured
+delete leo
+get lina
+delete mira
+get reese
+set niko admin
+set li adjunct
+set alayna faculty
+set alayna admin
+delete reese
+get ren
+delete yinan
+delete toby
+set daniel faculty
+set reese undergrad
+set kai ms
+set leo postdoc
+get ellen
+get lina
+delete june
+get jamie
+get emery
+delete leo
+set ren dropout
+set leo phd
+get max
+set jamie postdoc
+get ada
+set avi grad
+set max undergrad
+set li dropout
+set max student
+get bryn
+set ada adjunct
 get ivy
-set li undergrad
-set daniel staff
-get daniel
-set ivy alum
-set kai student2
-set yinan staff
-get yinan
-set yinan ms
-set noah grad
-set luc grad
-delete ivy
-set mira visitor
-get sana
-set kai student2
-set leo dropout
+set noah phd
+set jamie visitor
+delete noah
+set noah alum
+set li full-time
+set ren ms
+delete ellen
+delete mira
+set ravi phd
+get luc
+set lina staff
+set sasha dropout
+get sasha
+set alayna part-time
+set kai admin
+delete yinan
+set toby researcher
+get toby
+set avi staff
+delete bryn
+delete lina
 get niko
-set kai alum
-set sana grad
+delete lina
 delete kai
-set sasha student2
+set kira lecturer
+delete ari
+get alayna
+get sana
+get noah
+delete ada
+get ellen
+delete bryn
+delete kai
+set kai faculty
+set emery undergrad
+set alayna alum
+set noah full-time
+delete ellen
+set kira admin
+set zoe admin
+set june ms
+get leo
+set avi postdoc
+delete bryn
+set zoe researcher
+delete mira
+delete kai
+set reese student2
+set max tenured
+set reese dropout
+set luc student
+set yinan researcher
+delete li
+get theo
+get ari
+set daniel staff
+set avi dropout
+get sana
+delete alayna
+delete ren
+set ren intern
+get theo
+set emery part-time
+get kai
+set leo lecturer
+set theo ms
+set kai researcher
+set max lecturer
+get alayna
+set sasha tenured
+set luc student
+get june
+delete mira
+get noah
+set lina part-time
+set june part-time
+delete max
+get ari
+get lina
+get ellen
+delete sana
+get mira
+set niko researcher
+get zoe
+set theo undergrad
+set theo staff
+delete mira
+set niko intern
+set kira adjunct
+delete emery
+set luc lecturer
+set avi staff
+set daniel postdoc
+set niko lecturer
+delete luc
+set toby postdoc
+delete ren
+set theo faculty
+set noah faculty
+get luc
+delete max
+delete ari
+delete zoe
+get jamie
 set luc visitor
+set june dropout
+set ari undergrad
+get lina
+get ada
+delete zoe
+set noah undergrad
+set ellen postdoc
+get li
+set sasha faculty
+set emery staff
+get zoe
+set sasha student
+get noah
+delete ellen
+delete avi
+set max dropout
+get max
+get kira
+set kira student
+set max full-time
+set noah tenured
+set ivy student
+set kira tenured
+delete reese
+set kai phd
+delete noah
+set ivy grad
+set ada visitor
+get luc
+get ada
+set ivy full-time
+get sasha
+delete ari
+set noah phd
+get kira
+set jamie grad
+delete ada
+set theo staff
+set kai grad
+set li student2
+set li tenured
+set avi admin
+get avi
+get ivy
+get alayna
+delete ari
+set theo student2
+get sasha
+set daniel student
+set lina phd
+delete ren
+delete daniel
+set reese part-time
+delete ada
+set ada postdoc
+get kira
+set kira staff
+set max intern
+set toby researcher
+set lina part-time
+set mira ms
+get toby
+delete max
+get kai
+get kira
+get yinan
+get daniel
+get june
+set mira grad
+delete toby
+set leo faculty
+get ellen
+get lina
+get june
+set lina admin
+set leo dropout
+delete ellen
+set ravi part-time
+set mira lecturer
+get ravi
+set kira lecturer
+set jamie postdoc
+set li alum
+set noah phd
+get kai
+set june grad
+set sana postdoc
+set niko undergrad
+delete sasha
+set max researcher
+set jamie student2
+get theo
+set ada student
+set alayna student
+delete sasha
+set daniel visitor
+get ravi
+set noah alum
+delete li
+set toby adjunct
+set daniel part-time
+set kira staff
+set ellen adjunct
+delete june
+delete theo
+set zoe ms
+set noah faculty
+set kai dropout
+set kai tenured
+set niko phd
+set li researcher
+set kira phd
+set kai lecturer
+delete zoe
+get li
+get sasha
+set zoe intern
+set li visitor
+get lina
+get jamie
+delete max
+get reese
+delete theo
+get kira
+set ivy undergrad
+delete ellen
+get reese
+set li staff
+delete lina
+get yinan
+set kira ms
+delete leo
+set yinan student2
+set reese full-time
+get jamie
+delete avi
+get alayna
+get noah
+set sasha grad
+delete mira
+set mira researcher
+set ada ms
+delete ellen
+set reese visitor
+delete yinan
+set alayna visitor
+set ivy grad
+set kira staff
+set alayna staff
+set toby undergrad
+delete kira
+delete sana
+delete mira
+get lina
+delete june
+delete alayna
+get emery
+set ada undergrad
+set lina student2
+set yinan undergrad
+delete bryn
+delete sana
+delete zoe
+set jamie dropout
+get leo
+get mira
+set noah grad
+set daniel faculty
+set bryn faculty
+get ivy
+delete toby
+set alayna faculty
+delete noah
+set june postdoc
+get ellen
+set theo adjunct
+get daniel
+get kira
+get leo
+set ivy postdoc
+set theo student2
+delete avi
+set ada adjunct
+get sana
+set ravi adjunct
+set zoe admin
+get avi
+delete max
+set leo faculty
+get lina
+delete zoe
+get max
+set kira phd
+set ada intern
+set noah phd
+delete avi
+delete kira
+set niko intern
+get sasha
+set kai intern
+delete kira
+delete luc
+set leo admin
+get reese
+set sana ms
+delete toby
+set daniel dropout
+set sasha student2
+set sana ms
+delete kai
+set ellen researcher
+delete li
+set lina faculty
+set li admin
+get theo
+set noah ms
+set ivy lecturer
+set ellen tenured
+get theo
+set sana visitor
+get emery
+get leo
+set emery dropout
+set jamie part-time
+delete yinan
+set li undergrad
+get zoe
+set ren lecturer
+get kira
+delete sana
+set ivy faculty
+set li tenured
+set ivy admin
+set ari admin
+delete sasha
+set kira lecturer
+set sasha faculty
+set niko grad
+get bryn
+get max
+get zoe
+set luc intern
+get kai
+get ada
+set bryn tenured
+get lina
+get kai
+get ellen
+get ravi
+set bryn researcher
+delete ren
+set alayna admin
+delete sasha
+delete lina
+get ravi
+get max
+set li phd
+set noah postdoc
+get lina
+set june alum
+set mira undergrad
+set ren intern
+get lina
+get alayna
+get sana
+set yinan lecturer
+set bryn adjunct
+get ellen
+set luc staff
+set li student2
+set sana student2
+set sasha alum
+set ren full-time
+get bryn
+delete bryn
+set noah faculty
+set noah intern
+get sasha
+delete toby
+set ravi visitor
+delete lina
+set theo admin
+delete bryn
+delete reese
+set daniel student2
+get leo
+set lina alum
+delete daniel
+set mira visitor
+get sasha
+delete bryn
+get avi
+set reese full-time
+set daniel researcher
+get luc
+delete max
+set leo postdoc
+set bryn tenured
+delete ari
+set avi admin
+delete leo
+set theo lecturer
+set ren student2
+get mira
+delete lina
+set max faculty
+delete noah
+set bryn phd
+get bryn
+set ellen part-time
+get zoe
+delete yinan
+delete ren
+delete mira
+get jamie
+get kira
+set ivy student2
+get lina
+delete theo
+set yinan adjunct
+set leo alum
+delete sana
+set kira phd
+delete daniel
+set emery full-time
+set ari visitor
+delete reese
+get sana
+get sasha
+get lina
+set reese tenured
+delete kai
+set ren grad
+set jamie phd
+set jamie admin
+get noah
+set luc dropout
+set li intern
+set kai undergrad
+delete ada
+set max intern
+delete ada
+delete ari
+set ari tenured
+set ravi faculty
+set theo phd
+get noah
+set sana undergrad
+delete daniel
+get sasha
+set ada lecturer
+get zoe
+get ivy
+get noah
+set kai full-time
+set luc grad
+set theo intern
+set ren student2
+set theo adjunct
+set noah staff
+delete noah
+delete theo
+get sana
+delete emery
+delete lina
+set june phd
+set max lecturer
+set kai grad
+get sasha
+set reese grad
+set ren part-time
+delete avi
+get lina
+delete kira
+get theo
+set mira dropout
+set niko staff
+delete daniel
+get ren
+set mira grad
+set luc grad
+delete reese
+delete bryn
+get niko
+set kira admin
+get avi
+get jamie
+set max tenured
+delete kai
+get mira
+set kai alum
+set luc phd
+set emery intern
+get daniel
+set ravi ms
+set alayna postdoc
+set alayna tenured
+delete ravi
+set sasha visitor
+get ellen
+get reese
+set sasha full-time
+delete li
+delete jamie
+get ivy
+set jamie faculty
+set theo intern
+set sana visitor
+set noah lecturer
+set daniel staff
+set toby intern
+set alayna dropout
+delete sasha
+delete theo
+delete bryn
+set alayna dropout
+set li postdoc
+get emery
+get zoe
+set ari visitor
+get ari
+get yinan
+delete ellen
+set kira ms
+get yinan
+delete ari
+set max student
+set reese lecturer
+get zoe
+set kira full-time
+set ravi student
+set luc student
+set niko dropout
+get ravi
+delete reese
+get june
+set avi adjunct
+get yinan
+set ren undergrad
+get noah
+delete kira
+get luc
+set ellen full-time
+set ada full-time
+set mira faculty
+set alayna adjunct
+get kai
+set li part-time
+set ravi student
+set ravi grad
+set kira full-time
+delete june
+get li
+set sana tenured
+set theo staff
+delete toby
+delete ravi
+set max staff
+get june
+delete jamie
+set june undergrad
+set sasha adjunct
+get sana
+get zoe
+delete li
+set yinan visitor
+set mira student
+get zoe
+get ren
+set theo ms
+set alayna grad
+set yinan intern
+get avi
+set niko adjunct
+delete max
+get ivy
+delete theo
+get emery
+set lina researcher
+get kira
+get luc
+set jamie intern
+set bryn admin
+set alayna visitor
+delete leo
+set leo tenured
+get sasha
+set ada part-time
+set ivy adjunct
+delete alayna
+set ren full-time
+set li adjunct
+set niko postdoc
+get ada
+get theo
+set bryn grad
+delete kira
+get kira
+delete theo
+get leo
+get ada
+get kira
+set sasha student2
+delete ada
+delete lina
+delete ada
+delete niko
+set avi admin
+set reese part-time
+get daniel
+get kira
+set zoe alum
+delete avi
+get alayna
+delete ellen
+set sasha student
+set alayna admin
+set toby ms
+set ivy part-time
+set avi phd
+get ren
+delete niko
+delete niko
+set zoe undergrad
+delete luc
+delete niko
+set noah intern
+set ellen full-time
+set bryn staff
+set lina postdoc
+get lina
+get daniel
+set leo lecturer
+get li
+get sasha
+set lina admin
+get mira
+set ari admin
+delete noah
+set alayna intern
+set kai visitor
+get ivy
+set kira full-time
+set ravi student
+set jamie adjunct
+set jamie adjunct
+get sana
+set leo grad
+set luc postdoc
+get daniel
+get luc
+delete toby
+set niko staff
+set ren alum
+delete emery
+set noah ms
+delete luc
+get bryn
+delete ren
+get yinan
+set leo part-time
+set niko alum
+get niko
+delete june
+set mira visitor
+set avi researcher
+set toby student2
+set noah undergrad
+set bryn staff
+set bryn dropout
+set leo student2
+get luc
+delete zoe
+get sana
+get kai
+get li
+set ren phd
+delete ada
+delete avi
+delete mira
+get sana
+delete ellen
+get yinan
+set ravi faculty
+get ren
+set kira researcher
+set mira faculty
+get ivy
+set bryn visitor
+delete kai
+set toby faculty
+delete theo
+get sasha
+get noah
+get kai
+get avi
+set reese adjunct
+delete kira
+get zoe
+delete toby
+get noah
+set daniel part-time
+set kai admin
+delete ivy
+set ren alum
+set yinan intern
+delete ari
+set yinan dropout
+get yinan
+get niko
+set mira student2
+set luc visitor
+get toby
+set avi part-time
+get kai
+get max
+get ari
+get reese
+delete jamie
+get ravi
+delete yinan
+delete emery
+delete emery
+set noah undergrad
+delete ada
+set ren student2
+set alayna alum
+get ren
+set ren full-time
+get noah
+get mira
+delete li
+get niko
+get ivy
+get sasha
+get ravi
+set niko tenured
+set sasha faculty
+get ari
+get sana
+delete niko
+set daniel tenured
+delete li
+set niko visitor
+get max
+get avi
+set ari grad
+delete ravi
+get mira
+set bryn alum
+get daniel
+get mira
+get bryn
+get toby
+get li
+delete ada
+set bryn part-time
+set lina undergrad
+set ivy alum
+delete ivy
+set luc visitor
+set ravi ms
+get lina
+get ada
+set alayna grad
+get ren
+set emery faculty
+set ivy student
+set daniel full-time
+set alayna lecturer
+delete reese
+get toby
+set ren part-time
+set ellen lecturer
+set ellen phd
+set june full-time
+get june
+get alayna
+set reese researcher
+set luc alum
+set li alum
+set leo researcher
+delete lina
+get li
+get theo
+get leo
+set emery admin
+set bryn student
+set reese visitor
+set ada researcher
+set li grad
+set sasha intern
+set reese adjunct
+set alayna researcher
+get leo
+set alayna part-time
+get yinan
+set kai grad
+get mira
+get june
+delete reese
+set yinan faculty
+delete leo
+set daniel ms
+delete kira
+delete reese
+set alayna faculty
+set mira intern
+get max
+set reese tenured
+delete reese
+delete alayna
+get jamie
+get noah
+set lina ms
+set ivy dropout
+get toby
+set reese alum
+set ari admin
+get bryn
+set jamie alum
+delete bryn
+set bryn student
+set theo lecturer
+set kira student2
+set ari lecturer
+set jamie full-time
+delete ren
+get sana
+set niko tenured
+set ivy lecturer
+get theo
+set daniel alum
+set bryn dropout
+set mira intern
+get li
+delete bryn
+get ellen
+set ellen student
+set jamie grad
+set noah admin
+delete ravi
+delete mira
+get leo
+set toby dropout
+set kai adjunct
+set li admin
+get jamie
+set lina student
+get ivy
+delete niko
+delete max
+get lina
+set zoe researcher
+get ivy
+set ari student2
+get max
+set ren student2
+set kai grad
+delete kira
+delete noah
+get luc
+get jamie
+get leo
+delete ravi
+get jamie
+get avi
+set ada admin
+set emery student
+set daniel phd
+delete kai
+delete ivy
+delete li
+set ren phd
+set kira grad
+set jamie grad
+delete ravi
+get lina
+delete mira
+set niko tenured
+delete toby
+set emery ms
+set kai visitor
+get noah
+get li
+get toby
+get theo
+get li
+set kai part-time
+get lina
+set alayna student
+delete sana
+set max grad
+set alayna researcher
+delete theo
+set jamie faculty
+delete kira
+set ravi phd
+set max admin
+set ren part-time
+set ren phd
+set niko undergrad
+get yinan
+set theo adjunct
+delete theo
+get max
+set max admin
+delete zoe
+get mira
+get theo
+delete sana
+get avi
+set theo lecturer
+delete zoe
+get lina
+delete emery
+get yinan
+delete jamie
+get ellen
+delete ravi
+set emery researcher
+get toby
+set leo lecturer
+get ren
+get ari
+set ari visitor
+set reese student2
+set li grad
+set zoe undergrad
+get ren
+set toby dropout
+get li
+set kai adjunct
+delete yinan
+set june full-time
+set max tenured
+set ivy postdoc
+delete alayna
+set noah phd
+get lina
+set bryn ms
+set li tenured
+get leo
+delete ari
+set sasha dropout
+delete ivy
+set bryn researcher
+set ivy student
+set ari researcher
+delete niko
+set bryn full-time
+set reese undergrad
+set noah part-time
+set zoe part-time
+set ravi researcher
+set bryn visitor
+get daniel
+set sana ms
+delete ravi
+get sasha
+get ari
+set toby lecturer
+set kai dropout
+get sasha
+set daniel student
+delete niko
+get sana
+set theo alum
+set lina ms
+delete reese
+delete yinan
+set bryn student2
+get ellen
+set ada admin
+get jamie
+get kai
+set yinan undergrad
+set ada lecturer
+get kira
+get reese
+delete ren
+set alayna ms
+delete jamie
+set ellen faculty
+delete ren
+set mira undergrad
+get kira
+get zoe
+delete reese
+delete li
+set bryn student2
+set leo ms
+delete sana
+get kai
+get avi
+get max
+get yinan
+set sana ms
+set bryn faculty
+delete max
+get ravi
+set max dropout
+delete luc
+get jamie
+set jamie tenured
+set ravi part-time
+set jamie part-time
+set ivy visitor
+delete noah
+set lina faculty
+delete daniel
+get ren
+get ravi
+delete niko
+get ren
+set daniel intern
+get yinan
+delete jamie
+get sasha
+get noah
+get ren
+set yinan full-time
+delete li
+delete mira
+get ellen
+set max admin
+set ada intern
+get ari
+get li
+get mira
+set toby staff
+get noah
+set mira undergrad
+set bryn intern
+delete ari
+get kira
+get luc
+set leo researcher
+set ren tenured
+delete ivy
+get toby
+set ada admin
+get june
+set ellen staff
+set daniel faculty
+set alayna researcher
+get reese
+get li
+set alayna alum
+get kai
+get avi
+get sana
+set li ms
+delete bryn
+set mira adjunct
+set leo ms
+set jamie alum
+set ravi lecturer
+set theo researcher
+get zoe
+set kai researcher
+set ren undergrad
+get daniel
+delete avi
+set jamie phd
+set daniel postdoc
+set kai staff
+get alayna
+get max
+set kai faculty
+set ari ms
+set li researcher
+set bryn intern
+set noah faculty
+set luc tenured
+delete daniel
+get june
+get li
+set jamie faculty
+get niko
+set max undergrad
+delete leo
+set noah staff
+set emery adjunct
+get max
+get ravi
+delete li
+delete zoe
+set zoe student
+get yinan
+get theo
+get emery
+set sasha undergrad
+set daniel postdoc
+set june phd
+delete bryn
+get ivy
+get june
+get niko
+get kai
+get li
+set mira faculty
+delete june
+set ivy undergrad
+get daniel
+set sana staff
+set theo phd
+set ravi grad
+set ada faculty
+set ari student2
+delete max
+set ada student2
+set yinan postdoc
+set sasha visitor
+get theo
+set sana undergrad
+get ren
+set noah researcher
+set emery alum
+set niko student
+get ari
+set toby phd
+get lina
+delete max
+get lina
+get sana
+delete kira
+set kai researcher
+delete mira
+get bryn
+get bryn
+get ravi
+get toby
+get ravi
+set ivy ms
+delete daniel
+get ravi
+set noah full-time
+get luc
+set reese ms
+set kai staff
+set ellen intern
+set max student2
+get jamie
+set ivy grad
+delete zoe
+delete niko
+get lina
+set ellen tenured
+get sasha
+delete sana
+set kira phd
+get ravi
+set kira alum
+get ellen
+set emery alum
+set theo visitor
+set max adjunct
+get ada
+get ada
+set zoe lecturer
+get jamie
+get leo
+get niko
+get theo
+set theo adjunct
+set toby intern
+get ari
+set max grad
+set sasha visitor
+set toby visitor
+set ada staff
+get zoe
+set jamie part-time
+set alayna ms
+get noah
+set leo phd
+set li dropout
+set zoe undergrad
+get ari
+set sasha full-time
+set ellen full-time
+delete ren
+set sana admin
+set luc adjunct
+set kai postdoc
+set alayna tenured
+get niko
+set max lecturer
+get noah
+set noah ms
+set ellen staff
+delete max
+get avi
+get alayna
+set jamie part-time
+get leo
+set alayna staff
+set li full-time
+set li admin
+get toby
+get ari
+set mira staff
+delete jamie
+delete yinan
+set toby tenured
+get ren
+delete ellen
+set li student2
+delete daniel
+delete alayna
+set luc tenured
+set luc dropout
+set leo lecturer
+set ada tenured
+get ada
+set li student
+set ellen intern
+delete ada
+set ravi postdoc
+set ren intern
+set leo phd
+delete noah
+set niko dropout
+get max
+set ravi tenured
+set june staff
+get ellen
+get sasha
+set ravi student
+set kira adjunct
+delete june
+set luc undergrad
+get niko
+set daniel student2
+get emery
+get alayna
+get ravi
+delete toby
+set avi alum
+set jamie faculty
+set jamie part-time
+set ellen student2
+set theo tenured
+set daniel alum
+delete max
+set kai student
+set yinan student2
+delete max
+set sasha admin
+set ren researcher
+set ada researcher
+set sasha visitor
+delete zoe
+set max full-time
+set niko tenured
+get jamie
+set kira undergrad
+set ellen alum
+delete ivy
+set leo lecturer
+delete max
+set daniel student
+get lina
+get mira
+set max student
+set lina alum
+set ravi visitor
+get daniel
+set emery alum
+delete daniel
+set kira intern
+set ravi phd
+set daniel phd
+set bryn adjunct
+set sana part-time
+set reese grad
+get daniel
+get ivy
+delete bryn
+get ada
+delete ada
+get jamie
+delete ada
+set sana lecturer
+get noah
+set daniel adjunct
+get yinan
+delete alayna
+set daniel phd
+set sana ms
+get avi
+set noah researcher
+get alayna
+set avi tenured
+get yinan
+get kira
+set bryn researcher
+get niko
+delete mira
+delete emery
+delete yinan
+set jamie dropout
+set avi intern
+get leo
+set ravi admin
+set niko part-time
+set ellen student
+set daniel dropout
+set ivy ms
+get max
+get li
+get lina
+set theo faculty
+set toby admin
+set sasha ms
+delete zoe
+delete niko
+get mira
+set li ms
+get ada
+get mira
+delete niko
+set luc grad
+set daniel researcher
+get max
+get emery
+delete kai
+get li
+set zoe phd
+get toby
+set zoe part-time
+set max admin
+get ari
+set mira intern
+delete emery
+get ellen
+get toby
+get li
+get emery
+get bryn
+delete emery
+get ari
+set zoe part-time
+delete ravi
+set theo ms
+set kai undergrad
+get ari
+set ravi staff
+set ari full-time
+set sana student
+set bryn admin
+set yinan intern
+set kira admin
+delete toby
+set emery grad
+set bryn alum
+get kira
+get noah
+get ada
+delete kira
+delete noah
+delete jamie
+set ivy dropout
+get niko
+set ari full-time
+get ivy
+set leo dropout
+set alayna grad
+get reese
+set jamie part-time
+delete kai
+set ravi undergrad
+set yinan postdoc
+set lina staff
+get niko
+delete sana
+delete theo
+set emery adjunct
+set sana lecturer
+set emery alum
+set kira dropout
+set ren lecturer
+set reese student2
+get luc
+set alayna admin
+get kai
+get zoe
+delete li
+get emery
+get yinan
+set li part-time
+get li
+delete ivy
+set alayna researcher
+get kai
+set yinan admin
+set ada student
+set lina admin
+get kira
+set ari admin
+get ellen
+get ada
+set ellen alum
+delete ellen
+set avi lecturer
+delete alayna
+delete toby
+delete mira
+set kai lecturer
+set sana visitor
+set lina dropout
+get noah
+set toby researcher
+get reese
+delete bryn
+delete jamie
+set lina student2
+delete niko
+get li
+set niko faculty
+delete zoe
+set noah adjunct
+delete june
+set bryn ms
+set reese faculty
+set kira dropout
+get bryn
+set leo student
+delete jamie
+delete sasha
+get ari
+get ellen
+get ivy
+delete sasha
+set ellen intern
+set avi student2
+get ellen
+delete bryn
+set max ms
+get alayna
+set mira tenured
+get daniel
+set max grad
+get daniel
+get kira
+get ren
+set li adjunct
+get lina
+set noah dropout
+set bryn grad
+get june
+delete noah
+get ada
+set theo student
+set ellen grad
+get sasha
+get li
+set kai visitor
+set theo student2
+get june
+get sana
+delete luc
+set li tenured
+get noah
+set noah grad
+set ari student
+set leo undergrad
+delete reese
+get niko
+get ada
+set ivy full-time
+get daniel
+delete niko
+set leo dropout
+get ravi
+delete lina
+set sasha staff
+set sasha alum
+set zoe tenured
+delete ravi
+set daniel adjunct
+set emery student
+set kira phd
+set theo grad
+get max
+get ada
+delete ivy
+set reese part-time
+set ravi part-time
+set ada visitor
+get reese
+delete alayna
+delete jamie
+delete li
+set ivy phd
+get bryn
+delete lina
+delete sasha
+set ivy intern
+set daniel faculty
+set leo student
+get ren
+get avi
+set kai grad
+set zoe student
+delete zoe
+set avi dropout
+set sana staff
+get emery
+set ada part-time
+set bryn grad
+set yinan ms
+set alayna full-time
+set kira ms
+set lina faculty
+get kai
+set zoe admin
+set bryn student
+get ren
+delete ari
+delete leo
+get alayna
+get ivy
+set reese ms
+get reese
+delete reese
+get ada
+delete theo
+delete sasha
+set avi grad
+set reese phd
+delete mira
+set bryn alum
+get sasha
+set yinan ms
+get bryn
+get niko
+delete ellen
+set jamie admin
+get ren
+set mira researcher
+set ren lecturer
+get ari
+get mira
+get reese
+set luc staff
+get alayna
+set max visitor
+set zoe dropout
+set zoe alum
+set max admin
+set daniel alum
+set avi part-time
+get reese
+get ari
+set avi tenured
+get ada
+set yinan intern
+set mira tenured
+set ren phd
+get sasha
+get ari
+set ravi postdoc
+set reese student2
+set sana visitor
+set li dropout
+set toby researcher
+delete ivy
+get lina
+set alayna intern
+set bryn staff
+delete emery
+set li student2
+set ren full-time
+set ada student2
+delete bryn
+set sana student
+delete daniel
+get emery
+set sasha alum
+set niko full-time
+set yinan student
+delete emery
+get emery
+get ivy
+set reese admin
+set ellen admin
+set ellen intern
+get ivy
+delete leo
+set kai postdoc
+set max lecturer
+get alayna
+set emery researcher
+get bryn
+get sana
+set jamie alum
+get niko
+set alayna grad
+get kai
+get leo
+set toby tenured
+set reese postdoc
+set lina visitor
+delete ada
+set ada undergrad
+delete theo
