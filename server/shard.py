@@ -8,6 +8,7 @@ import threading
 import time
 import utils
 import random
+import threading
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -176,6 +177,16 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         with grpc.insecure_channel(replica_address) as channel:
             stub = kv_store_pb2_grpc.KeyValueStoreStub(channel)
             return getattr(stub, method)(request)
+
+    def forward_to_replica_async(self, method, key, request, replica_address):
+        def _forward():
+            try:
+                with grpc.insecure_channel(replica_address) as channel:
+                    stub = kv_store_pb2_grpc.KeyValueStoreStub(channel)
+                    getattr(stub, method)(request)
+            except Exception as e:
+                print(f"[{self.local_address}] Gossip to {replica_address} failed: {e}")
+        threading.Thread(target=_forward, daemon=True).start()
         
     def handle_logical_clock(self, method, request):
         """method: Get"""
@@ -198,7 +209,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
                 choice = random.choice(self.replicas)
                 del request.told_replicas[:]
                 request.told_replicas.append(choice)
-                self.forward_to_replica(method, request.key, request, choice)
+                self.forward_to_replica_async(method, request.key, request, choice)
         else:
             # replica should update its logical clock based on the leader's
             self.logical_clock = max(self.logical_clock, request.logical_clock) + 1
@@ -208,7 +219,7 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
                 if remaining:
                     choice = random.choice(remaining)
                     request.told_replicas.append(choice)
-                    self.forward_to_replica(method, request.key, request, choice)
+                    self.forward_to_replica_async(method, request.key, request, choice)
                 else:
                     print(f"[{self.local_address}] No more replicas left to gossip to for key {request.key}")
             # if strong, do nothing, shard leader informs everyone
@@ -219,30 +230,29 @@ class ShardNodeServicer(kv_store_pb2_grpc.KeyValueStoreServicer):
         
         # Write to persistent storage
         utils.write_dict_to_json(self.store, self.filepath)
+        self.handle_logical_clock_and_push("Set", request)
         command = f"SET-{request.key}->{request.value}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {True}", "a")
-        self.handle_logical_clock_and_push("Set", request)
         return kv_store_pb2.SetResponse(success=True)
 
     def Get(self, request, context): # only the replica leader responds
         value = self.store.get(request.key, "")
         found = request.key in self.store
         print(f"[{self.shard_id}] GET {request.key} -> {value if found else 'NOT FOUND'}")
+        self.handle_logical_clock("Get", request)
         command = f"GET-{request.key}-{request.logical_clock}"
         utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {found}", "a")
-        self.handle_logical_clock("Get", request)
         return kv_store_pb2.GetResponse(found=found, value=value)
 
     def Delete(self, request, context):
         success = self.store.pop(request.key, None) is not None
-        print(f"[{self.shard_id}] DELETE {request.key} -> {'Success' if success else 'Not found'}")
+        print(f"[{self.shard_id}] DEL {request.key} -> {'Success' if success else 'Not found'}")
 
         # Write to persistent storage
         utils.write_dict_to_json(self.store, self.filepath)
-        command = f"DELETE-{request.key}-{request.logical_clock}"
-        utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {success}", "a")
-    
         self.handle_logical_clock_and_push("Delete", request)
+        command = f"DEL-{request.key}-{request.logical_clock}"
+        utils.write_line_to_txt(self.command_file, f"{time.time()} {self.logical_clock} {command} {success}", "a")
         return kv_store_pb2.DeleteResponse(success=success)
 
 def load_config(path):
